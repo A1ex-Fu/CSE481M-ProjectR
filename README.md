@@ -309,12 +309,14 @@ Parameter explanation:
 If you utilize this repository and our work, please cite:
 
 ```bibtex
-@article{sahinuc2024efficient,
+@inproceedings{sahinuc2024efficient,
   title     = {Efficient Performance Tracking: Leveraging Large Language Models for Automated Construction of Scientific Leaderboards},
-  author    = {{\c{S}}ahinu{\c{c}}, Furkan and Tran, Thy Thy and Grishina, Yulia and Hou, Yufang and Chen, Bei and Gurevych, Iryna},
-  journal   = {arXiv preprint arXiv:2409.12656},
+  author    = {\c{S}ahinu\c{c}, Furkan and Tran, Thy Thy and Grishina, Yulia and Hou, Yufang and Chen, Bei and Gurevych, Iryna},
+  booktitle = {Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing},
   year      = {2024},
-  url       = {https://arxiv.org/abs/2409.12656}
+  url       = {https://arxiv.org/abs/2409.12656},
+  publisher = {Association for Computational Linguistics},
+  address   = {Miami, United States},
 }
 ```
 
