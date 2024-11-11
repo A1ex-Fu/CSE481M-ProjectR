@@ -4,7 +4,7 @@
   <img src="logo.png" alt="drawing" width="450">
 <p align="center">
 
-This repository contains code and resources related to the paper "[Efficient Performance Tracking: Leveraging Large Language Models for Automated Construction of Scientific Leaderboards](https://arxiv.org/abs/2409.12656)" at EMNLP 2024 main conference.
+This repository contains code and resources related to the paper "[Efficient Performance Tracking: Leveraging Large Language Models for Automated Construction of Scientific Leaderboards](https://aclanthology.org/2024.emnlp-main.453)" at EMNLP 2024 main conference.
 
 > **Abstract:** Scientific leaderboards are standardized ranking systems that facilitate evaluating and comparing competitive methods. Typically, a leaderboard is defined by a task, dataset, and evaluation metric (TDM) triple, allowing objective performance assessment and fostering innovation through benchmarking. However, the exponential increase in publications has made it infeasible to construct and maintain these leaderboards manually. Automatic leaderboard construction has emerged as a solution to reduce manual labor. Existing datasets for this task are based on the community-contributed leaderboards without additional curation. Our analysis shows that a large portion of these leaderboards are incomplete, and some of them contain incorrect information. In this work, we present SciLead, a manually-curated Scientific Leaderboard dataset that overcomes the aforementioned problems. Building on this dataset, we propose three experimental settings that simulate real-world scenarios where TDM triples are fully defined, partially defined, or undefined during leaderboard construction. While previous research has only explored the first setting, the latter two are more representative of real-world applications. To address these diverse settings, we develop a comprehensive LLM-based framework for constructing leaderboards. Our experiments and analysis reveal that various LLMs often correctly identify TDM triples while struggling to extract result values from publications. We provide the code and dataset in the supplementary material.
 
@@ -309,14 +309,16 @@ Parameter explanation:
 If you utilize this repository and our work, please cite:
 
 ```bibtex
-@inproceedings{sahinuc2024efficient,
+@inproceedings{sahinuc-etal-2024-efficient,
   title     = {Efficient Performance Tracking: Leveraging Large Language Models for Automated Construction of Scientific Leaderboards},
-  author    = {\c{S}ahinu\c{c}, Furkan and Tran, Thy Thy and Grishina, Yulia and Hou, Yufang and Chen, Bei and Gurevych, Iryna},
+  author    = {{\c{S}}ahinu{\c{c}}, Furkan and Tran, Thy Thy and Grishina, Yulia and Hou, Yufang and Chen, Bei and Gurevych, Iryna},
   booktitle = {Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing},
+  month     = nov,
   year      = {2024},
-  url       = {https://arxiv.org/abs/2409.12656},
+  address   = {Miami, Florida, USA},
   publisher = {Association for Computational Linguistics},
-  address   = {Miami, United States},
+  url       = {https://aclanthology.org/2024.emnlp-main.453},
+  pages     = {7963--7977},
 }
 ```
 
