@@ -16,7 +16,7 @@ def main(args):
 
     config = utils.read_json(args.tdm_output_path + 'config.json')
     gold_data = utils.read_json(args.gold_tdm_path)
-    model_output = utils.read_json(args.tdm_output_path + 'manually_refined_output.json')
+    model_output = utils.read_json(args.tdm_output_path + 'output.json')
     prompts = utils.read_json(args.prompt_file)
 
     if config['is_few_shot']:

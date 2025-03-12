@@ -14,7 +14,7 @@ def main(args):
     random.seed(args.seed)
 
     gold_data = utils.read_json(args.gold_tdm_path)
-    model_output = utils.read_json(args.tdm_output_path + 'manually_refined_output.json')
+    model_output = utils.read_json(args.tdm_output_path + 'output.json')
 
     labels_dict = {'Task': set(), 'Dataset': set(), 'Metric': set()}
 
