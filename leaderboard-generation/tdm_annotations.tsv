@@ -1,0 +1,296 @@
+PaperURL	PaperName	Task	Dataset	Metric	Result	Comment
+https://arxiv.org/pdf/1911.10390.pdf	1911.10390.pdf	Summarization	Gigaword	ROGUE-1	39.19	Results are the obtained best result for given metric. They may not belong to the same model in the paper.
+https://arxiv.org/pdf/1911.10390.pdf	1911.10390.pdf	Summarization	Gigaword	ROGUE-2	20.47	
+https://arxiv.org/pdf/1911.10390.pdf	1911.10390.pdf	Summarization	Gigaword	ROGUE-L	36.69	
+https://arxiv.org/pdf/1911.10390.pdf	1911.10390.pdf	Summarization	Gigaword	BERTScore	61.51	
+https://arxiv.org/pdf/1911.10390.pdf	1911.10390.pdf	Summarization	Newsroom	ROGUE-1	45.93	
+https://arxiv.org/pdf/1911.10390.pdf	1911.10390.pdf	Summarization	Newsroom	ROGUE-2	24.14	
+https://arxiv.org/pdf/1911.10390.pdf	1911.10390.pdf	Summarization	Newsroom	ROGUE-L	42.51	
+https://arxiv.org/pdf/1911.10390.pdf	1911.10390.pdf	Summarization	Newsroom	BERTScore	66.20	
+https://arxiv.org/pdf/2001.04063.pdf	2001.04063.pdf	Summarization	CNN/DailyMail	ROGUE-1	44.20	
+https://arxiv.org/pdf/2001.04063.pdf	2001.04063.pdf	Summarization	CNN/DailyMail	ROGUE-2	21.17	
+https://arxiv.org/pdf/2001.04063.pdf	2001.04063.pdf	Summarization	CNN/DailyMail	ROGUE-L	41.30	
+https://arxiv.org/pdf/2001.04063.pdf	2001.04063.pdf	Summarization	Gigaword	ROGUE-1	39.51	
+https://arxiv.org/pdf/2001.04063.pdf	2001.04063.pdf	Summarization	Gigaword	ROGUE-2	20.42	
+https://arxiv.org/pdf/2001.04063.pdf	2001.04063.pdf	Summarization	Gigaword	ROGUE-L	36.69	
+https://arxiv.org/pdf/2001.04063.pdf	2001.04063.pdf	Question Generation	SQuAD 1.1	BLEU-4	25.80	
+https://arxiv.org/pdf/2001.04063.pdf	2001.04063.pdf	Question Generation	SQuAD 1.1	METEOR	27.54	
+https://arxiv.org/pdf/2001.04063.pdf	2001.04063.pdf	Question Generation	SQuAD 1.1	ROGUE-L	53.65	
+https://arxiv.org/pdf/1905.03197.pdf	1905.03197.pdf	Summarization	CNN/DailyMail	ROGUE-1	43.33	
+https://arxiv.org/pdf/1905.03197.pdf	1905.03197.pdf	Summarization	CNN/DailyMail	ROGUE-2	20.21	
+https://arxiv.org/pdf/1905.03197.pdf	1905.03197.pdf	Summarization	CNN/DailyMail	ROGUE-L	40.51	
+https://arxiv.org/pdf/1905.03197.pdf	1905.03197.pdf	Summarization	Gigaword	ROGUE-1	38.45	
+https://arxiv.org/pdf/1905.03197.pdf	1905.03197.pdf	Summarization	Gigaword	ROGUE-2	19.45	
+https://arxiv.org/pdf/1905.03197.pdf	1905.03197.pdf	Summarization	Gigaword	ROGUE-L	35.75	
+https://arxiv.org/pdf/1905.03197.pdf	1905.03197.pdf	Question Answering	SQuAD 2.0	Exact Match (EM)	84.7	
+https://arxiv.org/pdf/1905.03197.pdf	1905.03197.pdf	Question Answering	SQuAD 2.0	F1	87.6	
+https://arxiv.org/pdf/1905.03197.pdf	1905.03197.pdf	Question Answering	CoQA	F1	84.9	
+https://arxiv.org/pdf/1905.03197.pdf	1905.03197.pdf	Question Generation	SQuAD 1.1	BLEU-4	23.75	
+https://arxiv.org/pdf/1905.03197.pdf	1905.03197.pdf	Question Generation	SQuAD 1.1	METEOR	25.61	
+https://arxiv.org/pdf/1905.03197.pdf	1905.03197.pdf	Question Generation	SQuAD 1.1	ROGUE-L	52.04	
+https://arxiv.org/pdf/1905.03197.pdf	1905.03197.pdf	Response Generation	DSTC7	NIST-4	2.669	
+https://arxiv.org/pdf/1905.03197.pdf	1905.03197.pdf	Response Generation	DSTC7	BLEU-4	4.39	
+https://arxiv.org/pdf/1905.03197.pdf	1905.03197.pdf	Response Generation	DSTC7	METEOR	8.27	
+https://arxiv.org/pdf/1905.03197.pdf	1905.03197.pdf	Linguistic Acceptability	CoLA	Matthew's Correlation Coefficient (MCC)	61.1	
+https://arxiv.org/pdf/1905.03197.pdf	1905.03197.pdf	Sentiment Analysis	SST-2	Accuracy	94.5	
+https://arxiv.org/pdf/1905.03197.pdf	1905.03197.pdf	Paraphrase Detection	MRPC	F1	90.0	
+https://arxiv.org/pdf/1905.03197.pdf	1905.03197.pdf	Text Similarity	STS-B	Spearman Correlation	87.7	
+https://arxiv.org/pdf/1905.03197.pdf	1905.03197.pdf	Paraphrase Detection	QQP	F1	71.7	
+https://arxiv.org/pdf/1905.03197.pdf	1905.03197.pdf	Natural Language Inference (NLI)	MNLI-m	Accuracy	87.0	
+https://arxiv.org/pdf/1905.03197.pdf	1905.03197.pdf	Natural Language Inference (NLI)	MNLI-mm	Accuracy	85.9	
+https://arxiv.org/pdf/1905.03197.pdf	1905.03197.pdf	Natural Language Inference (NLI)	QNLI	Accuracy	92.7	
+https://arxiv.org/pdf/1905.03197.pdf	1905.03197.pdf	Natural Language Inference (NLI)	RTE	Accuracy	70.9	
+https://arxiv.org/pdf/1905.03197.pdf	1905.03197.pdf	Natural Language Inference (NLI)	WNLI	Accuracy	65.1	
+https://arxiv.org/pdf/1905.03197.pdf	1905.03197.pdf	Natural Language Inference (NLI)	AX	Accuracy	38.4	
+https://arxiv.org/pdf/1912.08777.pdf	1912.08777.pdf	Summarization	XSum	ROGUE-1	47.21	
+https://arxiv.org/pdf/1912.08777.pdf	1912.08777.pdf	Summarization	XSum	ROGUE-2	24.56	
+https://arxiv.org/pdf/1912.08777.pdf	1912.08777.pdf	Summarization	XSum	ROGUE-L	39.25	
+https://arxiv.org/pdf/1912.08777.pdf	1912.08777.pdf	Summarization	CNN/DailyMail	ROGUE-1	44.17	
+https://arxiv.org/pdf/1912.08777.pdf	1912.08777.pdf	Summarization	CNN/DailyMail	ROGUE-2	21.47	
+https://arxiv.org/pdf/1912.08777.pdf	1912.08777.pdf	Summarization	CNN/DailyMail	ROGUE-L	41.11	
+https://arxiv.org/pdf/1912.08777.pdf	1912.08777.pdf	Summarization	Newsroom	ROGUE-1	45.15	
+https://arxiv.org/pdf/1912.08777.pdf	1912.08777.pdf	Summarization	Newsroom	ROGUE-2	33.51	
+https://arxiv.org/pdf/1912.08777.pdf	1912.08777.pdf	Summarization	Newsroom	ROGUE-L	41.33	
+https://arxiv.org/pdf/1912.08777.pdf	1912.08777.pdf	Summarization	Multi-News	ROGUE-1	47.52	
+https://arxiv.org/pdf/1912.08777.pdf	1912.08777.pdf	Summarization	Multi-News	ROGUE-2	18.72	
+https://arxiv.org/pdf/1912.08777.pdf	1912.08777.pdf	Summarization	Multi-News	ROGUE-L	24.91	
+https://arxiv.org/pdf/1912.08777.pdf	1912.08777.pdf	Summarization	Gigaword	ROGUE-1	39.12	
+https://arxiv.org/pdf/1912.08777.pdf	1912.08777.pdf	Summarization	Gigaword	ROGUE-2	19.86	
+https://arxiv.org/pdf/1912.08777.pdf	1912.08777.pdf	Summarization	Gigaword	ROGUE-L	36.24	
+https://arxiv.org/pdf/1912.08777.pdf	1912.08777.pdf	Summarization	WikiHow	ROGUE-1	43.06	
+https://arxiv.org/pdf/1912.08777.pdf	1912.08777.pdf	Summarization	WikiHow	ROGUE-2	19.71	
+https://arxiv.org/pdf/1912.08777.pdf	1912.08777.pdf	Summarization	WikiHow	ROGUE-L	34.80	
+https://arxiv.org/pdf/1912.08777.pdf	1912.08777.pdf	Summarization	Reddit TIFU	ROGUE-1	26.63	
+https://arxiv.org/pdf/1912.08777.pdf	1912.08777.pdf	Summarization	Reddit TIFU	ROGUE-2	9.01	
+https://arxiv.org/pdf/1912.08777.pdf	1912.08777.pdf	Summarization	Reddit TIFU	ROGUE-L	21.64	
+https://arxiv.org/pdf/1912.08777.pdf	1912.08777.pdf	Summarization	BIGPATENT	ROGUE-1	53.63	
+https://arxiv.org/pdf/1912.08777.pdf	1912.08777.pdf	Summarization	BIGPATENT	ROGUE-2	33.16	
+https://arxiv.org/pdf/1912.08777.pdf	1912.08777.pdf	Summarization	BIGPATENT	ROGUE-L	42.25	
+https://arxiv.org/pdf/1912.08777.pdf	1912.08777.pdf	Summarization	arXiv	ROGUE-1	44.70	
+https://arxiv.org/pdf/1912.08777.pdf	1912.08777.pdf	Summarization	arXiv	ROGUE-2	17.27	
+https://arxiv.org/pdf/1912.08777.pdf	1912.08777.pdf	Summarization	arXiv	ROGUE-L	25.80	
+https://arxiv.org/pdf/1912.08777.pdf	1912.08777.pdf	Summarization	PubMed	ROGUE-1	45.49	
+https://arxiv.org/pdf/1912.08777.pdf	1912.08777.pdf	Summarization	PubMed	ROGUE-2	19.90	
+https://arxiv.org/pdf/1912.08777.pdf	1912.08777.pdf	Summarization	PubMed	ROGUE-L	27.69	
+https://arxiv.org/pdf/1912.08777.pdf	1912.08777.pdf	Summarization	AESLC	ROGUE-1	37.69	
+https://arxiv.org/pdf/1912.08777.pdf	1912.08777.pdf	Summarization	AESLC	ROGUE-2	21.85	
+https://arxiv.org/pdf/1912.08777.pdf	1912.08777.pdf	Summarization	AESLC	ROGUE-L	36.84	
+https://arxiv.org/pdf/1912.08777.pdf	1912.08777.pdf	Summarization	BillSum	ROGUE-1	57.31	
+https://arxiv.org/pdf/1912.08777.pdf	1912.08777.pdf	Summarization	BillSum	ROGUE-2	40.19	
+https://arxiv.org/pdf/1912.08777.pdf	1912.08777.pdf	Summarization	BillSum	ROGUE-L	45.82	
+https://arxiv.org/pdf/1906.05012.pdf	1906.05012.pdf	Summarization	Gigaword	ROGUE-1	39.11	
+https://arxiv.org/pdf/1906.05012.pdf	1906.05012.pdf	Summarization	Gigaword	ROGUE-2	19.78	
+https://arxiv.org/pdf/1906.05012.pdf	1906.05012.pdf	Summarization	Gigaword	ROGUE-L	36.87	
+https://arxiv.org/pdf/2203.16804.pdf	2203.16804.pdf	Summarization	CNN/DailyMail	ROGUE-1	47.78	
+https://arxiv.org/pdf/2203.16804.pdf	2203.16804.pdf	Summarization	CNN/DailyMail	ROGUE-2	23.55	
+https://arxiv.org/pdf/2203.16804.pdf	2203.16804.pdf	Summarization	CNN/DailyMail	ROGUE-L	44.57	
+https://arxiv.org/pdf/2203.16804.pdf	2203.16804.pdf	Summarization	XSum	ROGUE-1	49.07	
+https://arxiv.org/pdf/2203.16804.pdf	2203.16804.pdf	Summarization	XSum	ROGUE-2	25.59	
+https://arxiv.org/pdf/2203.16804.pdf	2203.16804.pdf	Summarization	XSum	ROGUE-L	40.40	
+https://arxiv.org/pdf/2203.16804.pdf	2203.16804.pdf	Summarization	New York Times (NYT)	ROGUE-1	57.75	
+https://arxiv.org/pdf/2203.16804.pdf	2203.16804.pdf	Summarization	New York Times (NYT)	ROGUE-2	38.64	
+https://arxiv.org/pdf/2203.16804.pdf	2203.16804.pdf	Summarization	New York Times (NYT)	ROGUE-L	54.54	
+https://arxiv.org/pdf/1910.13461.pdf	1910.13461.pdf	Question Answering	SQuAD 1.1	Exact Match (EM)	88.8	
+https://arxiv.org/pdf/1910.13461.pdf	1910.13461.pdf	Question Answering	SQuAD 1.1	F1	94.6	
+https://arxiv.org/pdf/1910.13461.pdf	1910.13461.pdf	Question Answering	SQuAD 2.0	Exact Match (EM)	86.1	
+https://arxiv.org/pdf/1910.13461.pdf	1910.13461.pdf	Question Answering	SQuAD 2.0	F1	89.2	
+https://arxiv.org/pdf/1910.13461.pdf	1910.13461.pdf	Natural Language Inference (NLI)	MNLI-m	Accuracy	89.9	These GLUE results are obtained from dev-set. Exclude from leaderboards
+https://arxiv.org/pdf/1910.13461.pdf	1910.13461.pdf	Natural Language Inference (NLI)	MNLI-mm	Accuracy	90.1	
+https://arxiv.org/pdf/1910.13461.pdf	1910.13461.pdf	Sentiment Analysis	SST-2	Accuracy	96.6	
+https://arxiv.org/pdf/1910.13461.pdf	1910.13461.pdf	Paraphrase Detection	QQP	Accuracy	92.5	
+https://arxiv.org/pdf/1910.13461.pdf	1910.13461.pdf	Natural Language Inference (NLI)	QNLI	Accuracy	94.9	
+https://arxiv.org/pdf/1910.13461.pdf	1910.13461.pdf	Text Similarity	STS-B	Accuracy	91.2	
+https://arxiv.org/pdf/1910.13461.pdf	1910.13461.pdf	Natural Language Inference (NLI)	RTE	Accuracy	87	
+https://arxiv.org/pdf/1910.13461.pdf	1910.13461.pdf	Paraphrase Detection	MRPC	Accuracy	90.4	
+https://arxiv.org/pdf/1910.13461.pdf	1910.13461.pdf	Linguistic Acceptability	CoLA	Matthew's Correlation Coefficient (MCC)	62.8	
+https://arxiv.org/pdf/1910.13461.pdf	1910.13461.pdf	Summarization	CNN/DailyMail	ROGUE-1	44.16	
+https://arxiv.org/pdf/1910.13461.pdf	1910.13461.pdf	Summarization	CNN/DailyMail	ROGUE-2	21.28	
+https://arxiv.org/pdf/1910.13461.pdf	1910.13461.pdf	Summarization	CNN/DailyMail	ROGUE-L	40.90	
+https://arxiv.org/pdf/1910.13461.pdf	1910.13461.pdf	Summarization	XSum	ROGUE-1	45.14	
+https://arxiv.org/pdf/1910.13461.pdf	1910.13461.pdf	Summarization	XSum	ROGUE-2	22.27	
+https://arxiv.org/pdf/1910.13461.pdf	1910.13461.pdf	Summarization	XSum	ROGUE-L	37.25	
+https://arxiv.org/pdf/1910.13461.pdf	1910.13461.pdf	Dialogue Generation	ConvAI2	F1	20.72	
+https://arxiv.org/pdf/1910.13461.pdf	1910.13461.pdf	Dialogue Generation	ConvAI2	Perplexity	11.85	
+https://arxiv.org/pdf/1910.13461.pdf	1910.13461.pdf	Question Answering	ELI5	ROGUE-1	30.6	
+https://arxiv.org/pdf/1910.13461.pdf	1910.13461.pdf	Question Answering	ELI5	ROGUE-2	6.2	
+https://arxiv.org/pdf/1910.13461.pdf	1910.13461.pdf	Question Answering	ELI5	ROGUE-L	24.3	
+https://arxiv.org/pdf/1910.13461.pdf	1910.13461.pdf	Machine Translation	WMT’16 RO-EN	BLEU	37.96	
+https://arxiv.org/pdf/1908.08345.pdf	1908.08345.pdf	Summarization	CNN/DailyMail	ROGUE-1	43.85	
+https://arxiv.org/pdf/1908.08345.pdf	1908.08345.pdf	Summarization	CNN/DailyMail	ROGUE-2	20.34	
+https://arxiv.org/pdf/1908.08345.pdf	1908.08345.pdf	Summarization	CNN/DailyMail	ROGUE-L	39.90	
+https://arxiv.org/pdf/1908.08345.pdf	1908.08345.pdf	Summarization	XSum	ROGUE-1	38.81	
+https://arxiv.org/pdf/1908.08345.pdf	1908.08345.pdf	Summarization	XSum	ROGUE-2	16.50	
+https://arxiv.org/pdf/1908.08345.pdf	1908.08345.pdf	Summarization	XSum	ROGUE-L	31.27	
+https://arxiv.org/pdf/1908.08345.pdf	1908.08345.pdf	Summarization	New York Times (NYT)	ROGUE-1	49.02	
+https://arxiv.org/pdf/1908.08345.pdf	1908.08345.pdf	Summarization	New York Times (NYT)	ROGUE-2	31.02	
+https://arxiv.org/pdf/1908.08345.pdf	1908.08345.pdf	Summarization	New York Times (NYT)	ROGUE-L	45.55	
+https://arxiv.org/pdf/1808.08745.pdf	1808.08745.pdf	Summarization	XSum	ROGUE-1	31.89	
+https://arxiv.org/pdf/1808.08745.pdf	1808.08745.pdf	Summarization	XSum	ROGUE-2	11.54	
+https://arxiv.org/pdf/1808.08745.pdf	1808.08745.pdf	Summarization	XSum	ROGUE-L	25.75	
+https://aclanthology.org/2020.findings-emnlp.378.pdf	2020.findings-emnlp.378.pdf	Named Entity Recognition (NER)	Ontonotes v5 - English	F1	90.32	
+https://aclanthology.org/2020.findings-emnlp.378.pdf	2020.findings-emnlp.378.pdf	Named Entity Recognition (NER)	WNUT-16 - English	F1	55.14	
+https://aclanthology.org/2020.findings-emnlp.378.pdf	2020.findings-emnlp.378.pdf	Named Entity Recognition (NER)	WNUT-17 - English	F1	50.68	
+https://aclanthology.org/2020.findings-emnlp.378.pdf	2020.findings-emnlp.378.pdf	Named Entity Recognition (NER)	Ontonotes v4 - Chinese	F1	81.18	
+https://aclanthology.org/2020.findings-emnlp.378.pdf	2020.findings-emnlp.378.pdf	Named Entity Recognition (NER)	Resume - Chinese	F1	96.62	
+https://aclanthology.org/2020.findings-emnlp.378.pdf	2020.findings-emnlp.378.pdf	Named Entity Recognition (NER)	Weibo - Chinese	F1	69.78	
+https://arxiv.org/pdf/1809.08370.pdf	1809.08370.pdf	Combinatory Categorial Grammar (CCG) Supertagging	CCGBank	Accuracy	96.1	
+https://arxiv.org/pdf/1809.08370.pdf	1809.08370.pdf	Text Chunking	CoNLL-2000	F1	97.0	
+https://arxiv.org/pdf/1809.08370.pdf	1809.08370.pdf	Named Entity Recognition (NER)	CoNLL-2003 - English	F1	92.6	
+https://arxiv.org/pdf/1809.08370.pdf	1809.08370.pdf	Named Entity Recognition (NER)	Ontonotes v5 - English	F1	88.8	
+https://arxiv.org/pdf/1809.08370.pdf	1809.08370.pdf	Part-of-Speech (POS) Tagging	Penn Treebank (PTB)	Accuracy	97.74	
+https://arxiv.org/pdf/1809.08370.pdf	1809.08370.pdf	Dependency Parsing	Penn Treebank (PTB)	Unlabeled Attachment Score	96.6	
+https://arxiv.org/pdf/1809.08370.pdf	1809.08370.pdf	Dependency Parsing	Penn Treebank (PTB)	Labeled Attachment Score	95.0	
+https://arxiv.org/pdf/1809.08370.pdf	1809.08370.pdf	Machine Translation	IWSLT’15 EN-VI	BLEU	29.6	
+https://arxiv.org/pdf/1806.03489.pdf	1806.03489.pdf	Named Entity Recognition (NER)	CoNLL-2003 - English	F1	91.73	
+https://arxiv.org/pdf/1806.03489.pdf	1806.03489.pdf	Named Entity Recognition (NER)	Ontonotes v5 - English	F1	87.95	
+https://arxiv.org/pdf/1702.02098.pdf	1702.02098.pdf	Named Entity Recognition (NER)	CoNLL-2003 - English	F1	90.65	
+https://arxiv.org/pdf/1702.02098.pdf	1702.02098.pdf	Named Entity Recognition (NER)	Ontonotes v5 - English	F1	86.99	
+https://arxiv.org/pdf/1511.08308.pdf	1511.08308.pdf	Named Entity Recognition (NER)	CoNLL-2003 - English	F1	91.62	
+https://arxiv.org/pdf/1511.08308.pdf	1511.08308.pdf	Named Entity Recognition (NER)	Ontonotes v5 - English	F1	86.28	
+https://aclanthology.org/2020.emnlp-main.523.pdf	2020.emnlp-main.523.pdf	Entity Typing	Open Entity	Precision	79.9	
+https://aclanthology.org/2020.emnlp-main.523.pdf	2020.emnlp-main.523.pdf	Entity Typing	Open Entity	Recall	76.6	
+https://aclanthology.org/2020.emnlp-main.523.pdf	2020.emnlp-main.523.pdf	Entity Typing	Open Entity	F1	78.2	
+https://aclanthology.org/2020.emnlp-main.523.pdf	2020.emnlp-main.523.pdf	Relation Classification	TACRED	Precision	70.4	
+https://aclanthology.org/2020.emnlp-main.523.pdf	2020.emnlp-main.523.pdf	Relation Classification	TACRED	Recall	75.1	
+https://aclanthology.org/2020.emnlp-main.523.pdf	2020.emnlp-main.523.pdf	Relation Classification	TACRED	F1	72.7	
+https://aclanthology.org/2020.emnlp-main.523.pdf	2020.emnlp-main.523.pdf	Named Entity Recognition (NER)	CoNLL-2003 - English	F1	94.3	
+https://aclanthology.org/2020.emnlp-main.523.pdf	2020.emnlp-main.523.pdf	Question Answering	ReCoRD	Exact Match (EM)	90.6	
+https://aclanthology.org/2020.emnlp-main.523.pdf	2020.emnlp-main.523.pdf	Question Answering	ReCoRD	F1	91.2	
+https://aclanthology.org/2020.emnlp-main.523.pdf	2020.emnlp-main.523.pdf	Question Answering	SQuAD 1.1	Exact Match (EM)	90.2	
+https://aclanthology.org/2020.emnlp-main.523.pdf	2020.emnlp-main.523.pdf	Question Answering	SQuAD 1.1	F1	95.4	
+https://arxiv.org/pdf/2105.03654.pdf	2105.03654.pdf	Named Entity Recognition (NER)	WNUT-16 - English	F1	58.98	
+https://arxiv.org/pdf/2105.03654.pdf	2105.03654.pdf	Named Entity Recognition (NER)	WNUT-17 - English	F1	60.45	
+https://arxiv.org/pdf/2105.03654.pdf	2105.03654.pdf	Named Entity Recognition (NER)	CoNLL-2003 - English	F1	93.56	
+https://arxiv.org/pdf/2105.03654.pdf	2105.03654.pdf	Named Entity Recognition (NER)	CoNLL++	F1	94.81	
+https://arxiv.org/pdf/2105.03654.pdf	2105.03654.pdf	Named Entity Recognition (NER)	BC5CDR	F1	90.99	
+https://arxiv.org/pdf/2105.03654.pdf	2105.03654.pdf	Named Entity Recognition (NER)	NCBI	F1	89.24	
+https://arxiv.org/pdf/2105.03654.pdf	2105.03654.pdf	Named Entity Recognition (NER)	E-commerce	F1	83.99	
+https://journals.flvc.org/FLAIRS/article/view/128538/130043	128538.pdf	Named Entity Recognition (NER)	WNUT-16 - English	F1	53.48	
+https://journals.flvc.org/FLAIRS/article/view/128538/130043	128538.pdf	Named Entity Recognition (NER)	WNUT-17 - English	F1	50.52	
+https://journals.flvc.org/FLAIRS/article/view/128538/130043	128538.pdf	Named Entity Recognition (NER)	CoNLL-2003 - English	F1	93.76	
+https://journals.flvc.org/FLAIRS/article/view/128538/130043	128538.pdf	Named Entity Recognition (NER)	Multimodal	F1	74.17	
+https://arxiv.org/pdf/1903.07785.pdf	1903.07785.pdf	Linguistic Acceptability	CoLA	Matthew's Correlation Coefficient (MCC)	53.1	
+https://arxiv.org/pdf/1903.07785.pdf	1903.07785.pdf	Sentiment Analysis	SST-2	Accuracy	94.6	
+https://arxiv.org/pdf/1903.07785.pdf	1903.07785.pdf	Paraphrase Detection	MRPC	F1	83.7	
+https://arxiv.org/pdf/1903.07785.pdf	1903.07785.pdf	Text Similarity	STS-B	Spearman Correlation	84.2	
+https://arxiv.org/pdf/1903.07785.pdf	1903.07785.pdf	Paraphrase Detection	QQP	F1	71.7	
+https://arxiv.org/pdf/1903.07785.pdf	1903.07785.pdf	Natural Language Inference (NLI)	MNLI-m	Accuracy	84.3	
+https://arxiv.org/pdf/1903.07785.pdf	1903.07785.pdf	Natural Language Inference (NLI)	MNLI-mm	Accuracy	83.8	
+https://arxiv.org/pdf/1903.07785.pdf	1903.07785.pdf	Natural Language Inference (NLI)	QNLI	Accuracy	89.8	
+https://arxiv.org/pdf/1903.07785.pdf	1903.07785.pdf	Natural Language Inference (NLI)	RTE	Accuracy	63.7	
+https://arxiv.org/pdf/1903.07785.pdf	1903.07785.pdf	Named Entity Recognition (NER)	CoNLL-2003 - English	F1	93.5	
+https://arxiv.org/pdf/1903.07785.pdf	1903.07785.pdf	Constituency Parsing	Penn Treebank (PTB)	F1	95.6	
+https://aclanthology.org/D19-1367.pdf	D19-1367.pdf	Language Modeling	Penn Treebank (PTB)	Perplexity	56.0	
+https://aclanthology.org/D19-1367.pdf	D19-1367.pdf	Named Entity Recognition (NER)	CoNLL-2003 - English	F1	93.47	
+https://aclanthology.org/C18-1139.pdf	C18-1139.pdf	Named Entity Recognition (NER)	CoNLL-2003 - English	F1	93.09	
+https://aclanthology.org/C18-1139.pdf	C18-1139.pdf	Named Entity Recognition (NER)	CoNLL-2003 - German	F1	88.32	
+https://aclanthology.org/C18-1139.pdf	C18-1139.pdf	Text Chunking	CoNLL-2000	F1	96.72	
+https://aclanthology.org/C18-1139.pdf	C18-1139.pdf	Part-of-Speech (POS) Tagging	Penn Treebank (PTB)	Accuracy	97.85	
+https://aclanthology.org/D18-1279.pdf	D18-1279.pdf	Named Entity Recognition (NER)	CoNLL-2003 - English	F1	91.64	
+https://aclanthology.org/D18-1279.pdf	D18-1279.pdf	Named Entity Recognition (NER)	CoNLL-2003 - German	F1	79.43	
+https://aclanthology.org/D18-1279.pdf	D18-1279.pdf	Named Entity Recognition (NER)	CoNLL-2002 - Spanish	F1	86.68	
+https://aclanthology.org/D18-1279.pdf	D18-1279.pdf	Named Entity Recognition (NER)	CoNLL-2002- Dutch	F1	87.81	
+https://aclanthology.org/D18-1279.pdf	D18-1279.pdf	Text Chunking	CoNLL-2000	F1	95.29	
+https://aclanthology.org/D18-1279.pdf	D18-1279.pdf	Part-of-Speech (POS) Tagging	Penn Treebank (PTB)	F1	97.58	
+https://arxiv.org/pdf/1703.06345.pdf	1703.06345.pdf	Named Entity Recognition (NER)	CoNLL-2003 - English	F1	91.26	
+https://arxiv.org/pdf/1703.06345.pdf	1703.06345.pdf	Named Entity Recognition (NER)	CoNLL-2002 - Spanish	F1	85.77	
+https://arxiv.org/pdf/1703.06345.pdf	1703.06345.pdf	Named Entity Recognition (NER)	CoNLL-2002- Dutch	F1	85.19	
+https://arxiv.org/pdf/1703.06345.pdf	1703.06345.pdf	Text Chunking	CoNLL-2000	F1	95.41	
+https://arxiv.org/pdf/1703.06345.pdf	1703.06345.pdf	Part-of-Speech (POS) Tagging	Penn Treebank (PTB)	Accuracy	97.55	
+https://arxiv.org/pdf/1603.01354.pdf	1603.01354.pdf	Named Entity Recognition (NER)	CoNLL-2003 - English	Precision	91.35	
+https://arxiv.org/pdf/1603.01354.pdf	1603.01354.pdf	Named Entity Recognition (NER)	CoNLL-2003 - English	Recall	91.06	
+https://arxiv.org/pdf/1603.01354.pdf	1603.01354.pdf	Named Entity Recognition (NER)	CoNLL-2003 - English	F1	91.21	
+https://arxiv.org/pdf/1603.01354.pdf	1603.01354.pdf	Part-of-Speech (POS) Tagging	Penn Treebank (PTB)	Accuracy	97.55	
+https://arxiv.org/pdf/1709.04109.pdf	1709.04109.pdf	Named Entity Recognition (NER)	CoNLL-2003 - English	F1	91.85	
+https://arxiv.org/pdf/1709.04109.pdf	1709.04109.pdf	Text Chunking	CoNLL-2000	F1	96.13	
+https://arxiv.org/pdf/1709.04109.pdf	1709.04109.pdf	Part-of-Speech (POS) Tagging	Penn Treebank (PTB)	Accuracy	97.59	
+https://arxiv.org/pdf/2008.07772.pdf	2008.07772.pdf	Machine Translation	WMT’14 EN-FR	TER	40.3	
+https://arxiv.org/pdf/2008.07772.pdf	2008.07772.pdf	Machine Translation	WMT’14 EN-FR	METEOR	62.4	
+https://arxiv.org/pdf/2008.07772.pdf	2008.07772.pdf	Machine Translation	WMT’14 EN-FR	BLEU	43.8	
+https://arxiv.org/pdf/2008.07772.pdf	2008.07772.pdf	Machine Translation	WMT’14 EN-DE	TER	51.8	
+https://arxiv.org/pdf/2008.07772.pdf	2008.07772.pdf	Machine Translation	WMT’14 EN-DE	METEOR	48.3	
+https://arxiv.org/pdf/2008.07772.pdf	2008.07772.pdf	Machine Translation	WMT’14 EN-DE	BLEU	30.1	
+https://arxiv.org/pdf/1911.09483.pdf	1911.09483.pdf	Machine Translation	WMT’14 EN-FR	BLEU	43.5	
+https://arxiv.org/pdf/1911.09483.pdf	1911.09483.pdf	Machine Translation	WMT’14 EN-DE	BLEU	29.9	
+https://arxiv.org/pdf/1911.09483.pdf	1911.09483.pdf	Machine Translation	IWSLT’15 EN-VI	BLEU	31.3	
+https://arxiv.org/pdf/1911.09483.pdf	1911.09483.pdf	Machine Translation	IWSLT’14 EN-DE	BLEU	36.3	
+https://arxiv.org/pdf/1901.10430.pdf	1901.10430.pdf	Machine Translation	WMT’14 EN-FR	BLEU	43.2	
+https://arxiv.org/pdf/1901.10430.pdf	1901.10430.pdf	Machine Translation	WMT’14 EN-DE	BLEU	29.7	
+https://arxiv.org/pdf/1901.10430.pdf	1901.10430.pdf	Machine Translation	IWSLT’14 EN-DE	BLEU	35.2	
+https://arxiv.org/pdf/1901.10430.pdf	1901.10430.pdf	Machine Translation	WMT’17 EN-ZH	BLEU	24.4	
+https://arxiv.org/pdf/1901.10430.pdf	1901.10430.pdf	Summarization	CNN/DailyMail	ROGUE-1	39.84	
+https://arxiv.org/pdf/1901.10430.pdf	1901.10430.pdf	Summarization	CNN/DailyMail	ROGUE-2	16.25	
+https://arxiv.org/pdf/1901.10430.pdf	1901.10430.pdf	Summarization	CNN/DailyMail	ROGUE-L	36.73	
+https://arxiv.org/pdf/1901.10430.pdf	1901.10430.pdf	Language Modeling	Google Billion Word	Perplexity	26.67	
+https://arxiv.org/pdf/2002.03184.pdf	2002.03184.pdf	Machine Translation	WMT’14 EN-FR	BLEU	43.2	
+https://arxiv.org/pdf/2002.03184.pdf	2002.03184.pdf	Machine Translation	WMT’14 EN-DE	BLEU	29.6	
+https://arxiv.org/pdf/2002.03184.pdf	2002.03184.pdf	Machine Translation	IWSLT’14 EN-DE	BLEU	35.5	
+https://arxiv.org/pdf/2002.03184.pdf	2002.03184.pdf	Summarization	CNN/DailyMail	ROGUE-1	40.59	
+https://arxiv.org/pdf/2002.03184.pdf	2002.03184.pdf	Summarization	CNN/DailyMail	ROGUE-2	18.97	
+https://arxiv.org/pdf/2002.03184.pdf	2002.03184.pdf	Summarization	CNN/DailyMail	ROGUE-L	36.81	
+https://arxiv.org/pdf/2002.03184.pdf	2002.03184.pdf	Language Modeling	WikiText-103	Perplexity	23.3	
+https://proceedings.mlr.press/v97/wang19f/wang19f.pdf	wang19f.pdf	Language Modeling	WikiText-103	Perplexity	28.0	
+https://proceedings.mlr.press/v97/wang19f/wang19f.pdf	wang19f.pdf	Language Modeling	Penn Treebank (PTB)	Perplexity	46.01	
+https://proceedings.mlr.press/v97/wang19f/wang19f.pdf	wang19f.pdf	Language Modeling	Wikitext-2	Perplexity	38.65	
+https://proceedings.mlr.press/v97/wang19f/wang19f.pdf	wang19f.pdf	Machine Translation	WMT’14 EN-DE	BLEU	29.52	
+https://proceedings.mlr.press/v97/wang19f/wang19f.pdf	wang19f.pdf	Machine Translation	IWSLT’14 EN-DE	BLEU	35.18	
+https://arxiv.org/pdf/1804.09849.pdf	1804.09849.pdf	Machine Translation	WMT’14 EN-FR	BLEU	41.00	
+https://arxiv.org/pdf/1804.09849.pdf	1804.09849.pdf	Machine Translation	WMT’14 EN-DE	BLEU	28.49	
+https://aclanthology.org/D18-1523.pdf	D18-1523.pdf	Word Sense Induction	SemEval 2013 Task 13	Fuzzy normalized mutual information (FNMI)	11.26	
+https://aclanthology.org/D18-1523.pdf	D18-1523.pdf	Word Sense Induction	SemEval 2013 Task 13	Fuzzy B-Cubed (FBC)	57.49	
+https://aclanthology.org/D18-1523.pdf	D18-1523.pdf	Word Sense Induction	SemEval 2013 Task 13	AVG	25.43	
+https://arxiv.org/pdf/1905.12598.pdf	1905.12598.pdf	Word Sense Induction	SemEval 2013 Task 13	Fuzzy normalized mutual information (FNMI)	21.4	
+https://arxiv.org/pdf/1905.12598.pdf	1905.12598.pdf	Word Sense Induction	SemEval 2013 Task 13	Fuzzy B-Cubed (FBC)	64.0	
+https://arxiv.org/pdf/1905.12598.pdf	1905.12598.pdf	Word Sense Induction	SemEval 2013 Task 13	AVG	37.0	
+https://arxiv.org/pdf/1905.12598.pdf	1905.12598.pdf	Word Sense Induction	SemEval 2010 Task 14	F-Score (F-S)	71.3	
+https://arxiv.org/pdf/1905.12598.pdf	1905.12598.pdf	Word Sense Induction	SemEval 2010 Task 14	V-Measure (V-M)	40.4	
+https://arxiv.org/pdf/1905.12598.pdf	1905.12598.pdf	Word Sense Induction	SemEval 2010 Task 14	AVG	53.6	
+https://arxiv.org/pdf/1811.09242.pdf	1811.09242.pdf	Word Sense Induction	SemEval 2013 Task 13	Fuzzy normalized mutual information (FNMI)	9.55	
+https://arxiv.org/pdf/1811.09242.pdf	1811.09242.pdf	Word Sense Induction	SemEval 2013 Task 13	Fuzzy B-Cubed (FBC)	62.2	
+https://arxiv.org/pdf/1811.09242.pdf	1811.09242.pdf	Word Sense Induction	SemEval 2013 Task 13	AVG	24.37	
+https://arxiv.org/pdf/1811.09242.pdf	1811.09242.pdf	Word Sense Induction	SemEval 2010 Task 14	F-Score (F-S)	62.9	
+https://arxiv.org/pdf/1811.09242.pdf	1811.09242.pdf	Word Sense Induction	SemEval 2010 Task 14	V-Measure (V-M)	10.1	
+https://arxiv.org/pdf/1811.09242.pdf	1811.09242.pdf	Word Sense Induction	SemEval 2010 Task 14	AVG	25.20	
+https://arxiv.org/pdf/1812.10235.pdf	1812.10235.pdf	Intent Detection and Slot Filling	ATIS	F1	96.89	
+https://arxiv.org/pdf/1812.10235.pdf	1812.10235.pdf	Intent Detection and Slot Filling	ATIS	Accuracy	98.99	
+https://arxiv.org/pdf/1812.10235.pdf	1812.10235.pdf	Intent Detection and Slot Filling	Multi-domain Movie	F1	93.8	
+https://arxiv.org/pdf/1812.10235.pdf	1812.10235.pdf	Intent Detection and Slot Filling	Multi-domain Movie	Accuracy	95.91	
+https://arxiv.org/pdf/1812.10235.pdf	1812.10235.pdf	Intent Detection and Slot Filling	Multi-domain Home	F1	95.8	
+https://arxiv.org/pdf/1812.10235.pdf	1812.10235.pdf	Intent Detection and Slot Filling	Multi-domain Home	Accuracy	99.49	
+https://arxiv.org/pdf/1812.10235.pdf	1812.10235.pdf	Intent Detection and Slot Filling	Multi-domain Food	F1	98.2	
+https://arxiv.org/pdf/1812.10235.pdf	1812.10235.pdf	Intent Detection and Slot Filling	Multi-domain Food	Accuracy	99.27	
+https://aclanthology.org/2020.emnlp-main.152.pdf	2020.emnlp-main.152.pdf	Intent Detection and Slot Filling	ATIS	F1	96.24	
+https://aclanthology.org/2020.emnlp-main.152.pdf	2020.emnlp-main.152.pdf	Intent Detection and Slot Filling	ATIS	Accuracy	97.74	
+https://aclanthology.org/2020.emnlp-main.152.pdf	2020.emnlp-main.152.pdf	Intent Detection and Slot Filling	ATIS	Sent-Accuracy	88.64	
+https://aclanthology.org/2020.emnlp-main.152.pdf	2020.emnlp-main.152.pdf	Intent Detection and Slot Filling	SNIPS	F1	97.05	
+https://aclanthology.org/2020.emnlp-main.152.pdf	2020.emnlp-main.152.pdf	Intent Detection and Slot Filling	SNIPS	Accuracy	99.04	
+https://aclanthology.org/2020.emnlp-main.152.pdf	2020.emnlp-main.152.pdf	Intent Detection and Slot Filling	SNIPS	Sent-Accuracy	92.96	
+https://arxiv.org/pdf/1909.02188.pdf	1909.02188.pdf	Intent Detection and Slot Filling	ATIS	F1	95.9	
+https://arxiv.org/pdf/1909.02188.pdf	1909.02188.pdf	Intent Detection and Slot Filling	ATIS	Accuracy	96.9	
+https://arxiv.org/pdf/1909.02188.pdf	1909.02188.pdf	Intent Detection and Slot Filling	ATIS	Overall-Accuracy	86.5	
+https://arxiv.org/pdf/1909.02188.pdf	1909.02188.pdf	Intent Detection and Slot Filling	SNIPS	F1	94.2	
+https://arxiv.org/pdf/1909.02188.pdf	1909.02188.pdf	Intent Detection and Slot Filling	SNIPS	Accuracy	98.0	
+https://arxiv.org/pdf/1909.02188.pdf	1909.02188.pdf	Intent Detection and Slot Filling	SNIPS	Overall-Accuracy	86.9	
+https://arxiv.org/pdf/1907.00390.pdf	1907.00390.pdf	Intent Detection and Slot Filling	ATIS	F1	95.80	
+https://arxiv.org/pdf/1907.00390.pdf	1907.00390.pdf	Intent Detection and Slot Filling	ATIS	Accuracy	97.76	
+https://arxiv.org/pdf/1907.00390.pdf	1907.00390.pdf	Intent Detection and Slot Filling	ATIS	Sent-Accuracy	86.90	
+https://arxiv.org/pdf/1907.00390.pdf	1907.00390.pdf	Intent Detection and Slot Filling	SNIPS	F1	92.23	
+https://arxiv.org/pdf/1907.00390.pdf	1907.00390.pdf	Intent Detection and Slot Filling	SNIPS	Accuracy	97.43	
+https://arxiv.org/pdf/1907.00390.pdf	1907.00390.pdf	Intent Detection and Slot Filling	SNIPS	Sent-Accuracy	80.57	
+https://arxiv.org/pdf/1812.09471.pdf	1812.09471.pdf	Intent Detection and Slot Filling	ATIS	F1	0.952	
+https://arxiv.org/pdf/1812.09471.pdf	1812.09471.pdf	Intent Detection and Slot Filling	ATIS	Accuracy	0.950	
+https://arxiv.org/pdf/1812.09471.pdf	1812.09471.pdf	Intent Detection and Slot Filling	ATIS	Overall-Accuracy	0.834	
+https://arxiv.org/pdf/1812.09471.pdf	1812.09471.pdf	Intent Detection and Slot Filling	SNIPS	F1	0.918	
+https://arxiv.org/pdf/1812.09471.pdf	1812.09471.pdf	Intent Detection and Slot Filling	SNIPS	Accuracy	0.977	
+https://arxiv.org/pdf/1812.09471.pdf	1812.09471.pdf	Intent Detection and Slot Filling	SNIPS	Overall-Accuracy	0.809	
+https://aclanthology.org/D18-1105.pdf	D18-1105.pdf	Dialogue Act Classification	Switchboard Dialog Act Corpus (SWDA)	Accuracy	83.1	
+https://aclanthology.org/D18-1105.pdf	D18-1105.pdf	Dialogue Act Classification	ICSI Meeting Recorder Dialog Act Corpus (MRDA)	Accuracy	86.7	
+https://aclanthology.org/N19-1373.pdf	N19-1373.pdf	Dialogue Act Classification	Switchboard Dialog Act Corpus (SWDA)	Accuracy	82.9	
+https://aclanthology.org/N19-1373.pdf	N19-1373.pdf	Dialogue Act Classification	ICSI Meeting Recorder Dialog Act Corpus (MRDA)	Accuracy	91.1	
+https://aclanthology.org/K19-1036.pdf	K19-1036.pdf	Dialogue Act Classification	Switchboard Dialog Act Corpus (SWDA)	Accuracy	82.3	
+https://aclanthology.org/K19-1036.pdf	K19-1036.pdf	Dialogue Act Classification	ICSI Meeting Recorder Dialog Act Corpus (MRDA)	Accuracy	92.2	
+https://aclanthology.org/K19-1036.pdf	K19-1036.pdf	Dialogue Act Classification	Dailydialog (DyDA)	Accuracy	88.1	
+https://arxiv.org/pdf/1811.05021.pdf	1811.05021.pdf	Dialogue Act Classification	Switchboard Dialog Act Corpus (SWDA)	Accuracy	81.5	
+https://arxiv.org/pdf/1811.05021.pdf	1811.05021.pdf	Dialogue Act Classification	MapTask	Accuracy	68.5	
+https://arxiv.org/pdf/1711.05568.pdf	1711.05568.pdf	Dialogue Act Classification	Switchboard Dialog Act Corpus (SWDA)	Accuracy	81.3	
+https://arxiv.org/pdf/1711.05568.pdf	1711.05568.pdf	Dialogue Act Classification	ICSI Meeting Recorder Dialog Act Corpus (MRDA)	Accuracy	91.7	

@@ -1,0 +1,1987 @@
+{
+    "1911.10390.pdf": {
+        "PaperURL": "https://arxiv.org/pdf/1911.10390.pdf",
+        "TDMs": [
+            {
+                "Task": "Summarization",
+                "Dataset": "Gigaword",
+                "Metric": "ROGUE-1",
+                "Result": 39.19
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "Gigaword",
+                "Metric": "ROGUE-2",
+                "Result": 20.47
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "Gigaword",
+                "Metric": "ROGUE-L",
+                "Result": 36.69
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "Gigaword",
+                "Metric": "BERTScore",
+                "Result": 61.51
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "Newsroom",
+                "Metric": "ROGUE-1",
+                "Result": 45.93
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "Newsroom",
+                "Metric": "ROGUE-2",
+                "Result": 24.14
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "Newsroom",
+                "Metric": "ROGUE-L",
+                "Result": 42.51
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "Newsroom",
+                "Metric": "BERTScore",
+                "Result": 66.20
+            }
+        ]
+    },
+    "2001.04063.pdf": {
+        "PaperURL": "https://arxiv.org/pdf/2001.04063.pdf",
+        "TDMs": [
+            {
+                "Task": "Summarization",
+                "Dataset": "CNN/DailyMail",
+                "Metric": "ROGUE-1",
+                "Result": 44.20
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "CNN/DailyMail",
+                "Metric": "ROGUE-2",
+                "Result": 21.17
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "CNN/DailyMail",
+                "Metric": "ROGUE-L",
+                "Result": 41.30
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "Gigaword",
+                "Metric": "ROGUE-1",
+                "Result": 39.51
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "Gigaword",
+                "Metric": "ROGUE-2",
+                "Result": 20.42
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "Gigaword",
+                "Metric": "ROGUE-L",
+                "Result": 36.69
+            },
+            {
+                "Task": "Question Generation",
+                "Dataset": "SQuAD 1.1",
+                "Metric": "BLEU-4",
+                "Result": 25.80
+            },
+            {
+                "Task": "Question Generation",
+                "Dataset": "SQuAD 1.1",
+                "Metric": "METEOR",
+                "Result": 27.54
+            },
+            {
+                "Task": "Question Generation",
+                "Dataset": "SQuAD 1.1",
+                "Metric": "ROGUE-L",
+                "Result": 53.65
+            }
+        ]
+    },
+    "1905.03197.pdf": {
+        "PaperURL": "https://arxiv.org/pdf/1905.03197.pdf",
+        "TDMs": [
+            {
+                "Task": "Summarization",
+                "Dataset": "CNN/DailyMail",
+                "Metric": "ROGUE-1",
+                "Result": 43.33
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "CNN/DailyMail",
+                "Metric": "ROGUE-2",
+                "Result": 20.21
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "CNN/DailyMail",
+                "Metric": "ROGUE-L",
+                "Result": 40.51
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "Gigaword",
+                "Metric": "ROGUE-1",
+                "Result": 38.45
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "Gigaword",
+                "Metric": "ROGUE-2",
+                "Result": 19.45
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "Gigaword",
+                "Metric": "ROGUE-L",
+                "Result": 35.75
+            },
+            {
+                "Task": "Question Answering",
+                "Dataset": "SQuAD 2.0",
+                "Metric": "Exact Match (EM)",
+                "Result": 84.7
+            },
+            {
+                "Task": "Question Answering",
+                "Dataset": "SQuAD 2.0",
+                "Metric": "F1",
+                "Result": 87.6
+            },
+            {
+                "Task": "Question Answering",
+                "Dataset": "CoQA",
+                "Metric": "F1",
+                "Result": 84.9
+            },
+            {
+                "Task": "Question Generation",
+                "Dataset": "SQuAD 1.1",
+                "Metric": "BLEU-4",
+                "Result": 23.75
+            },
+            {
+                "Task": "Question Generation",
+                "Dataset": "SQuAD 1.1",
+                "Metric": "METEOR",
+                "Result": 25.61
+            },
+            {
+                "Task": "Question Generation",
+                "Dataset": "SQuAD 1.1",
+                "Metric": "ROGUE-L",
+                "Result": 52.04
+            },
+            {
+                "Task": "Response Generation",
+                "Dataset": "DSTC7",
+                "Metric": "NIST-4",
+                "Result": 2.669
+            },
+            {
+                "Task": "Response Generation",
+                "Dataset": "DSTC7",
+                "Metric": "BLEU-4",
+                "Result": 4.39
+            },
+            {
+                "Task": "Response Generation",
+                "Dataset": "DSTC7",
+                "Metric": "METEOR",
+                "Result": 8.27
+            },
+            {
+                "Task": "Linguistic Acceptability",
+                "Dataset": "CoLA",
+                "Metric": "Matthew's Correlation Coefficient (MCC)",
+                "Result": 61.1
+            },
+            {
+                "Task": "Sentiment Analysis",
+                "Dataset": "SST-2",
+                "Metric": "Accuracy",
+                "Result": 94.5
+            },
+            {
+                "Task": "Paraphrase Detection",
+                "Dataset": "MRPC",
+                "Metric": "F1",
+                "Result": 90.0
+            },
+            {
+                "Task": "Text Similarity",
+                "Dataset": "STS-B",
+                "Metric": "Spearman Correlation",
+                "Result": 87.7
+            },
+            {
+                "Task": "Paraphrase Detection",
+                "Dataset": "QQP",
+                "Metric": "F1",
+                "Result": 71.7
+            },
+            {
+                "Task": "Natural Language Inference (NLI)",
+                "Dataset": "MNLI-m",
+                "Metric": "Accuracy",
+                "Result": 87.0
+            },
+            {
+                "Task": "Natural Language Inference (NLI)",
+                "Dataset": "MNLI-mm",
+                "Metric": "Accuracy",
+                "Result": 85.9
+            },
+            {
+                "Task": "Natural Language Inference (NLI)",
+                "Dataset": "QNLI",
+                "Metric": "Accuracy",
+                "Result": 92.7
+            },
+            {
+                "Task": "Natural Language Inference (NLI)",
+                "Dataset": "RTE",
+                "Metric": "Accuracy",
+                "Result": 70.9
+            },
+            {
+                "Task": "Natural Language Inference (NLI)",
+                "Dataset": "WNLI",
+                "Metric": "Accuracy",
+                "Result": 65.1
+            },
+            {
+                "Task": "Natural Language Inference (NLI)",
+                "Dataset": "AX",
+                "Metric": "Accuracy",
+                "Result": 38.4
+            }
+        ]
+    },
+    "1912.08777.pdf": {
+        "PaperURL": "https://arxiv.org/pdf/1912.08777.pdf",
+        "TDMs": [
+            {
+                "Task": "Summarization",
+                "Dataset": "XSum",
+                "Metric": "ROGUE-1",
+                "Result": 47.21
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "XSum",
+                "Metric": "ROGUE-2",
+                "Result": 24.56
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "XSum",
+                "Metric": "ROGUE-L",
+                "Result": 39.25
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "CNN/DailyMail",
+                "Metric": "ROGUE-1",
+                "Result": 44.17
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "CNN/DailyMail",
+                "Metric": "ROGUE-2",
+                "Result": 21.47
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "CNN/DailyMail",
+                "Metric": "ROGUE-L",
+                "Result": 41.11
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "Newsroom",
+                "Metric": "ROGUE-1",
+                "Result": 45.15
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "Newsroom",
+                "Metric": "ROGUE-2",
+                "Result": 33.51
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "Newsroom",
+                "Metric": "ROGUE-L",
+                "Result": 41.33
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "Multi-News",
+                "Metric": "ROGUE-1",
+                "Result": 47.52
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "Multi-News",
+                "Metric": "ROGUE-2",
+                "Result": 18.72
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "Multi-News",
+                "Metric": "ROGUE-L",
+                "Result": 24.91
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "Gigaword",
+                "Metric": "ROGUE-1",
+                "Result": 39.12
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "Gigaword",
+                "Metric": "ROGUE-2",
+                "Result": 19.86
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "Gigaword",
+                "Metric": "ROGUE-L",
+                "Result": 36.24
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "WikiHow",
+                "Metric": "ROGUE-1",
+                "Result": 43.06
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "WikiHow",
+                "Metric": "ROGUE-2",
+                "Result": 19.71
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "WikiHow",
+                "Metric": "ROGUE-L",
+                "Result": 34.80
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "Reddit TIFU",
+                "Metric": "ROGUE-1",
+                "Result": 26.63
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "Reddit TIFU",
+                "Metric": "ROGUE-2",
+                "Result": 9.01
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "Reddit TIFU",
+                "Metric": "ROGUE-L",
+                "Result": 21.64
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "BIGPATENT",
+                "Metric": "ROGUE-1",
+                "Result": 53.63
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "BIGPATENT",
+                "Metric": "ROGUE-2",
+                "Result": 33.16
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "BIGPATENT",
+                "Metric": "ROGUE-L",
+                "Result": 42.25
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "arXiv",
+                "Metric": "ROGUE-1",
+                "Result": 44.70
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "arXiv",
+                "Metric": "ROGUE-2",
+                "Result": 17.27
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "arXiv",
+                "Metric": "ROGUE-L",
+                "Result": 25.80
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "PubMed",
+                "Metric": "ROGUE-1",
+                "Result": 45.49
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "PubMed",
+                "Metric": "ROGUE-2",
+                "Result": 19.90
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "PubMed",
+                "Metric": "ROGUE-L",
+                "Result": 27.69
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "AESLC",
+                "Metric": "ROGUE-1",
+                "Result": 37.69
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "AESLC",
+                "Metric": "ROGUE-2",
+                "Result": 21.85
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "AESLC",
+                "Metric": "ROGUE-L",
+                "Result": 36.84
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "BillSum",
+                "Metric": "ROGUE-1",
+                "Result": 57.31
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "BillSum",
+                "Metric": "ROGUE-2",
+                "Result": 40.19
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "BillSum",
+                "Metric": "ROGUE-L",
+                "Result": 45.82
+            }
+        ]
+    },
+    "1906.05012.pdf": {
+        "PaperURL": "https://arxiv.org/pdf/1906.05012.pdf",
+        "TDMs": [
+            {
+                "Task": "Summarization",
+                "Dataset": "Gigaword",
+                "Metric": "ROGUE-1",
+                "Result": 39.11
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "Gigaword",
+                "Metric": "ROGUE-2",
+                "Result": 19.78
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "Gigaword",
+                "Metric": "ROGUE-L",
+                "Result": 36.87
+            }
+        ]
+    },
+    "2203.16804.pdf": {
+        "PaperURL": "https://arxiv.org/pdf/2203.16804.pdf",
+        "TDMs": [
+            {
+                "Task": "Summarization",
+                "Dataset": "CNN/DailyMail",
+                "Metric": "ROGUE-1",
+                "Result": 47.78
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "CNN/DailyMail",
+                "Metric": "ROGUE-2",
+                "Result": 23.55
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "CNN/DailyMail",
+                "Metric": "ROGUE-L",
+                "Result": 44.57
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "XSum",
+                "Metric": "ROGUE-1",
+                "Result": 49.07
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "XSum",
+                "Metric": "ROGUE-2",
+                "Result": 25.59
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "XSum",
+                "Metric": "ROGUE-L",
+                "Result": 40.40
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "New York Times (NYT)",
+                "Metric": "ROGUE-1",
+                "Result": 57.75
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "New York Times (NYT)",
+                "Metric": "ROGUE-2",
+                "Result": 38.64
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "New York Times (NYT)",
+                "Metric": "ROGUE-L",
+                "Result": 54.54
+            }
+        ]
+    },
+    "1910.13461.pdf": {
+        "PaperURL": "https://arxiv.org/pdf/1910.13461.pdf",
+        "TDMs": [
+            {
+                "Task": "Question Answering",
+                "Dataset": "SQuAD 1.1",
+                "Metric": "Exact Match (EM)",
+                "Result": 88.8
+            },
+            {
+                "Task": "Question Answering",
+                "Dataset": "SQuAD 1.1",
+                "Metric": "F1",
+                "Result": 94.6
+            },
+            {
+                "Task": "Question Answering",
+                "Dataset": "SQuAD 2.0",
+                "Metric": "Exact Match (EM)",
+                "Result": 86.1
+            },
+            {
+                "Task": "Question Answering",
+                "Dataset": "SQuAD 2.0",
+                "Metric": "F1",
+                "Result": 89.2
+            },
+            {
+                "Task": "Natural Language Inference (NLI)",
+                "Dataset": "MNLI-m",
+                "Metric": "Accuracy",
+                "Result": 89.9
+            },
+            {
+                "Task": "Natural Language Inference (NLI)",
+                "Dataset": "MNLI-mm",
+                "Metric": "Accuracy",
+                "Result": 90.1
+            },
+            {
+                "Task": "Sentiment Analysis",
+                "Dataset": "SST-2",
+                "Metric": "Accuracy",
+                "Result": 96.6
+            },
+            {
+                "Task": "Paraphrase Detection",
+                "Dataset": "QQP",
+                "Metric": "Accuracy",
+                "Result": 92.5
+            },
+            {
+                "Task": "Natural Language Inference (NLI)",
+                "Dataset": "QNLI",
+                "Metric": "Accuracy",
+                "Result": 94.9
+            },
+            {
+                "Task": "Text Similarity",
+                "Dataset": "STS-B",
+                "Metric": "Accuracy",
+                "Result": 91.2
+            },
+            {
+                "Task": "Natural Language Inference (NLI)",
+                "Dataset": "RTE",
+                "Metric": "Accuracy",
+                "Result": 87.0
+            },
+            {
+                "Task": "Paraphrase Detection",
+                "Dataset": "MRPC",
+                "Metric": "Accuracy",
+                "Result": 90.4
+            },
+            {
+                "Task": "Linguistic Acceptability",
+                "Dataset": "CoLA",
+                "Metric": "Matthew's Correlation Coefficient (MCC)",
+                "Result": 62.8
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "CNN/DailyMail",
+                "Metric": "ROGUE-1",
+                "Result": 44.16
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "CNN/DailyMail",
+                "Metric": "ROGUE-2",
+                "Result": 21.28
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "CNN/DailyMail",
+                "Metric": "ROGUE-L",
+                "Result": 40.90
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "XSum",
+                "Metric": "ROGUE-1",
+                "Result": 45.14
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "XSum",
+                "Metric": "ROGUE-2",
+                "Result": 22.27
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "XSum",
+                "Metric": "ROGUE-L",
+                "Result": 37.25
+            },
+            {
+                "Task": "Dialogue Generation",
+                "Dataset": "ConvAI2",
+                "Metric": "F1",
+                "Result": 20.72
+            },
+            {
+                "Task": "Dialogue Generation",
+                "Dataset": "ConvAI2",
+                "Metric": "Perplexity",
+                "Result": 11.85
+            },
+            {
+                "Task": "Question Answering",
+                "Dataset": "ELI5",
+                "Metric": "ROGUE-1",
+                "Result": 30.6
+            },
+            {
+                "Task": "Question Answering",
+                "Dataset": "ELI5",
+                "Metric": "ROGUE-2",
+                "Result": 6.2
+            },
+            {
+                "Task": "Question Answering",
+                "Dataset": "ELI5",
+                "Metric": "ROGUE-L",
+                "Result": 24.3
+            },
+            {
+                "Task": "Machine Translation",
+                "Dataset": "WMT\u201916 RO-EN",
+                "Metric": "BLEU",
+                "Result": 37.96
+            }
+        ]
+    },
+    "1908.08345.pdf": {
+        "PaperURL": "https://arxiv.org/pdf/1908.08345.pdf",
+        "TDMs": [
+            {
+                "Task": "Summarization",
+                "Dataset": "CNN/DailyMail",
+                "Metric": "ROGUE-1",
+                "Result": 43.85
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "CNN/DailyMail",
+                "Metric": "ROGUE-2",
+                "Result": 20.34
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "CNN/DailyMail",
+                "Metric": "ROGUE-L",
+                "Result": 39.90
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "XSum",
+                "Metric": "ROGUE-1",
+                "Result": 38.81
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "XSum",
+                "Metric": "ROGUE-2",
+                "Result": 16.50
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "XSum",
+                "Metric": "ROGUE-L",
+                "Result": 31.27
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "New York Times (NYT)",
+                "Metric": "ROGUE-1",
+                "Result": 49.02
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "New York Times (NYT)",
+                "Metric": "ROGUE-2",
+                "Result": 31.02
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "New York Times (NYT)",
+                "Metric": "ROGUE-L",
+                "Result": 45.55
+            }
+        ]
+    },
+    "1808.08745.pdf": {
+        "PaperURL": "https://arxiv.org/pdf/1808.08745.pdf",
+        "TDMs": [
+            {
+                "Task": "Summarization",
+                "Dataset": "XSum",
+                "Metric": "ROGUE-1",
+                "Result": 31.89
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "XSum",
+                "Metric": "ROGUE-2",
+                "Result": 11.54
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "XSum",
+                "Metric": "ROGUE-L",
+                "Result": 25.75
+            }
+        ]
+    },
+    "2020.findings-emnlp.378.pdf": {
+        "PaperURL": "https://aclanthology.org/2020.findings-emnlp.378.pdf",
+        "TDMs": [
+            {
+                "Task": "Named Entity Recognition (NER)",
+                "Dataset": "Ontonotes v5 - English",
+                "Metric": "F1",
+                "Result": 90.32
+            },
+            {
+                "Task": "Named Entity Recognition (NER)",
+                "Dataset": "WNUT-16 - English",
+                "Metric": "F1",
+                "Result": 55.14
+            },
+            {
+                "Task": "Named Entity Recognition (NER)",
+                "Dataset": "WNUT-17 - English",
+                "Metric": "F1",
+                "Result": 50.68
+            },
+            {
+                "Task": "Named Entity Recognition (NER)",
+                "Dataset": "Ontonotes v4 - Chinese",
+                "Metric": "F1",
+                "Result": 81.18
+            },
+            {
+                "Task": "Named Entity Recognition (NER)",
+                "Dataset": "Resume - Chinese",
+                "Metric": "F1",
+                "Result": 96.62
+            },
+            {
+                "Task": "Named Entity Recognition (NER)",
+                "Dataset": "Weibo - Chinese",
+                "Metric": "F1",
+                "Result": 69.78
+            }
+        ]
+    },
+    "1809.08370.pdf": {
+        "PaperURL": "https://arxiv.org/pdf/1809.08370.pdf",
+        "TDMs": [
+            {
+                "Task": "Combinatory Categorial Grammar (CCG) Supertagging",
+                "Dataset": "CCGBank",
+                "Metric": "Accuracy",
+                "Result": 96.1
+            },
+            {
+                "Task": "Text Chunking",
+                "Dataset": "CoNLL-2000",
+                "Metric": "F1",
+                "Result": 97.0
+            },
+            {
+                "Task": "Named Entity Recognition (NER)",
+                "Dataset": "CoNLL-2003 - English",
+                "Metric": "F1",
+                "Result": 92.6
+            },
+            {
+                "Task": "Named Entity Recognition (NER)",
+                "Dataset": "Ontonotes v5 - English",
+                "Metric": "F1",
+                "Result": 88.8
+            },
+            {
+                "Task": "Part-of-Speech (POS) Tagging",
+                "Dataset": "Penn Treebank (PTB)",
+                "Metric": "Accuracy",
+                "Result": 97.74
+            },
+            {
+                "Task": "Dependency Parsing",
+                "Dataset": "Penn Treebank (PTB)",
+                "Metric": "Unlabeled Attachment Score",
+                "Result": 96.6
+            },
+            {
+                "Task": "Dependency Parsing",
+                "Dataset": "Penn Treebank (PTB)",
+                "Metric": "Labeled Attachment Score",
+                "Result": 95.0
+            },
+            {
+                "Task": "Machine Translation",
+                "Dataset": "IWSLT\u201915 EN-VI",
+                "Metric": "BLEU",
+                "Result": 29.6
+            }
+        ]
+    },
+    "1806.03489.pdf": {
+        "PaperURL": "https://arxiv.org/pdf/1806.03489.pdf",
+        "TDMs": [
+            {
+                "Task": "Named Entity Recognition (NER)",
+                "Dataset": "CoNLL-2003 - English",
+                "Metric": "F1",
+                "Result": 91.73
+            },
+            {
+                "Task": "Named Entity Recognition (NER)",
+                "Dataset": "Ontonotes v5 - English",
+                "Metric": "F1",
+                "Result": 87.95
+            }
+        ]
+    },
+    "1702.02098.pdf": {
+        "PaperURL": "https://arxiv.org/pdf/1702.02098.pdf",
+        "TDMs": [
+            {
+                "Task": "Named Entity Recognition (NER)",
+                "Dataset": "CoNLL-2003 - English",
+                "Metric": "F1",
+                "Result": 90.65
+            },
+            {
+                "Task": "Named Entity Recognition (NER)",
+                "Dataset": "Ontonotes v5 - English",
+                "Metric": "F1",
+                "Result": 86.99
+            }
+        ]
+    },
+    "1511.08308.pdf": {
+        "PaperURL": "https://arxiv.org/pdf/1511.08308.pdf",
+        "TDMs": [
+            {
+                "Task": "Named Entity Recognition (NER)",
+                "Dataset": "CoNLL-2003 - English",
+                "Metric": "F1",
+                "Result": 91.62
+            },
+            {
+                "Task": "Named Entity Recognition (NER)",
+                "Dataset": "Ontonotes v5 - English",
+                "Metric": "F1",
+                "Result": 86.28
+            }
+        ]
+    },
+    "2020.emnlp-main.523.pdf": {
+        "PaperURL": "https://aclanthology.org/2020.emnlp-main.523.pdf",
+        "TDMs": [
+            {
+                "Task": "Entity Typing",
+                "Dataset": "Open Entity",
+                "Metric": "Precision",
+                "Result": 79.9
+            },
+            {
+                "Task": "Entity Typing",
+                "Dataset": "Open Entity",
+                "Metric": "Recall",
+                "Result": 76.6
+            },
+            {
+                "Task": "Entity Typing",
+                "Dataset": "Open Entity",
+                "Metric": "F1",
+                "Result": 78.2
+            },
+            {
+                "Task": "Relation Classification",
+                "Dataset": "TACRED",
+                "Metric": "Precision",
+                "Result": 70.4
+            },
+            {
+                "Task": "Relation Classification",
+                "Dataset": "TACRED",
+                "Metric": "Recall",
+                "Result": 75.1
+            },
+            {
+                "Task": "Relation Classification",
+                "Dataset": "TACRED",
+                "Metric": "F1",
+                "Result": 72.7
+            },
+            {
+                "Task": "Named Entity Recognition (NER)",
+                "Dataset": "CoNLL-2003 - English",
+                "Metric": "F1",
+                "Result": 94.3
+            },
+            {
+                "Task": "Question Answering",
+                "Dataset": "ReCoRD",
+                "Metric": "Exact Match (EM)",
+                "Result": 90.6
+            },
+            {
+                "Task": "Question Answering",
+                "Dataset": "ReCoRD",
+                "Metric": "F1",
+                "Result": 91.2
+            },
+            {
+                "Task": "Question Answering",
+                "Dataset": "SQuAD 1.1",
+                "Metric": "Exact Match (EM)",
+                "Result": 90.2
+            },
+            {
+                "Task": "Question Answering",
+                "Dataset": "SQuAD 1.1",
+                "Metric": "F1",
+                "Result": 95.4
+            }
+        ]
+    },
+    "2105.03654.pdf": {
+        "PaperURL": "https://arxiv.org/pdf/2105.03654.pdf",
+        "TDMs": [
+            {
+                "Task": "Named Entity Recognition (NER)",
+                "Dataset": "WNUT-16 - English",
+                "Metric": "F1",
+                "Result": 58.98
+            },
+            {
+                "Task": "Named Entity Recognition (NER)",
+                "Dataset": "WNUT-17 - English",
+                "Metric": "F1",
+                "Result": 60.45
+            },
+            {
+                "Task": "Named Entity Recognition (NER)",
+                "Dataset": "CoNLL-2003 - English",
+                "Metric": "F1",
+                "Result": 93.56
+            },
+            {
+                "Task": "Named Entity Recognition (NER)",
+                "Dataset": "CoNLL++",
+                "Metric": "F1",
+                "Result": 94.81
+            },
+            {
+                "Task": "Named Entity Recognition (NER)",
+                "Dataset": "BC5CDR",
+                "Metric": "F1",
+                "Result": 90.99
+            },
+            {
+                "Task": "Named Entity Recognition (NER)",
+                "Dataset": "NCBI",
+                "Metric": "F1",
+                "Result": 89.24
+            },
+            {
+                "Task": "Named Entity Recognition (NER)",
+                "Dataset": "E-commerce",
+                "Metric": "F1",
+                "Result": 83.99
+            }
+        ]
+    },
+    "128538.pdf": {
+        "PaperURL": "https://journals.flvc.org/FLAIRS/article/view/128538/130043",
+        "TDMs": [
+            {
+                "Task": "Named Entity Recognition (NER)",
+                "Dataset": "WNUT-16 - English",
+                "Metric": "F1",
+                "Result": 53.48
+            },
+            {
+                "Task": "Named Entity Recognition (NER)",
+                "Dataset": "WNUT-17 - English",
+                "Metric": "F1",
+                "Result": 50.52
+            },
+            {
+                "Task": "Named Entity Recognition (NER)",
+                "Dataset": "CoNLL-2003 - English",
+                "Metric": "F1",
+                "Result": 93.76
+            },
+            {
+                "Task": "Named Entity Recognition (NER)",
+                "Dataset": "Multimodal",
+                "Metric": "F1",
+                "Result": 74.17
+            }
+        ]
+    },
+    "1903.07785.pdf": {
+        "PaperURL": "https://arxiv.org/pdf/1903.07785.pdf",
+        "TDMs": [
+            {
+                "Task": "Linguistic Acceptability",
+                "Dataset": "CoLA",
+                "Metric": "Matthew's Correlation Coefficient (MCC)",
+                "Result": 53.1
+            },
+            {
+                "Task": "Sentiment Analysis",
+                "Dataset": "SST-2",
+                "Metric": "Accuracy",
+                "Result": 94.6
+            },
+            {
+                "Task": "Paraphrase Detection",
+                "Dataset": "MRPC",
+                "Metric": "F1",
+                "Result": 83.7
+            },
+            {
+                "Task": "Text Similarity",
+                "Dataset": "STS-B",
+                "Metric": "Spearman Correlation",
+                "Result": 84.2
+            },
+            {
+                "Task": "Paraphrase Detection",
+                "Dataset": "QQP",
+                "Metric": "F1",
+                "Result": 71.7
+            },
+            {
+                "Task": "Natural Language Inference (NLI)",
+                "Dataset": "MNLI-m",
+                "Metric": "Accuracy",
+                "Result": 84.3
+            },
+            {
+                "Task": "Natural Language Inference (NLI)",
+                "Dataset": "MNLI-mm",
+                "Metric": "Accuracy",
+                "Result": 83.8
+            },
+            {
+                "Task": "Natural Language Inference (NLI)",
+                "Dataset": "QNLI",
+                "Metric": "Accuracy",
+                "Result": 89.8
+            },
+            {
+                "Task": "Natural Language Inference (NLI)",
+                "Dataset": "RTE",
+                "Metric": "Accuracy",
+                "Result": 63.7
+            },
+            {
+                "Task": "Named Entity Recognition (NER)",
+                "Dataset": "CoNLL-2003 - English",
+                "Metric": "F1",
+                "Result": 93.5
+            },
+            {
+                "Task": "Constituency Parsing",
+                "Dataset": "Penn Treebank (PTB)",
+                "Metric": "F1",
+                "Result": 95.6
+            }
+        ]
+    },
+    "D19-1367.pdf": {
+        "PaperURL": "https://aclanthology.org/D19-1367.pdf",
+        "TDMs": [
+            {
+                "Task": "Language Modeling",
+                "Dataset": "Penn Treebank (PTB)",
+                "Metric": "Perplexity",
+                "Result": 56.0
+            },
+            {
+                "Task": "Named Entity Recognition (NER)",
+                "Dataset": "CoNLL-2003 - English",
+                "Metric": "F1",
+                "Result": 93.47
+            }
+        ]
+    },
+    "C18-1139.pdf": {
+        "PaperURL": "https://aclanthology.org/C18-1139.pdf",
+        "TDMs": [
+            {
+                "Task": "Named Entity Recognition (NER)",
+                "Dataset": "CoNLL-2003 - English",
+                "Metric": "F1",
+                "Result": 93.09
+            },
+            {
+                "Task": "Named Entity Recognition (NER)",
+                "Dataset": "CoNLL-2003 - German",
+                "Metric": "F1",
+                "Result": 88.32
+            },
+            {
+                "Task": "Text Chunking",
+                "Dataset": "CoNLL-2000",
+                "Metric": "F1",
+                "Result": 96.72
+            },
+            {
+                "Task": "Part-of-Speech (POS) Tagging",
+                "Dataset": "Penn Treebank (PTB)",
+                "Metric": "Accuracy",
+                "Result": 97.85
+            }
+        ]
+    },
+    "D18-1279.pdf": {
+        "PaperURL": "https://aclanthology.org/D18-1279.pdf",
+        "TDMs": [
+            {
+                "Task": "Named Entity Recognition (NER)",
+                "Dataset": "CoNLL-2003 - English",
+                "Metric": "F1",
+                "Result": 91.64
+            },
+            {
+                "Task": "Named Entity Recognition (NER)",
+                "Dataset": "CoNLL-2003 - German",
+                "Metric": "F1",
+                "Result": 79.43
+            },
+            {
+                "Task": "Named Entity Recognition (NER)",
+                "Dataset": "CoNLL-2002 - Spanish",
+                "Metric": "F1",
+                "Result": 86.68
+            },
+            {
+                "Task": "Named Entity Recognition (NER)",
+                "Dataset": "CoNLL-2002- Dutch",
+                "Metric": "F1",
+                "Result": 87.81
+            },
+            {
+                "Task": "Text Chunking",
+                "Dataset": "CoNLL-2000",
+                "Metric": "F1",
+                "Result": 95.29
+            },
+            {
+                "Task": "Part-of-Speech (POS) Tagging",
+                "Dataset": "Penn Treebank (PTB)",
+                "Metric": "F1",
+                "Result": 97.58
+            }
+        ]
+    },
+    "1703.06345.pdf": {
+        "PaperURL": "https://arxiv.org/pdf/1703.06345.pdf",
+        "TDMs": [
+            {
+                "Task": "Named Entity Recognition (NER)",
+                "Dataset": "CoNLL-2003 - English",
+                "Metric": "F1",
+                "Result": 91.26
+            },
+            {
+                "Task": "Named Entity Recognition (NER)",
+                "Dataset": "CoNLL-2002 - Spanish",
+                "Metric": "F1",
+                "Result": 85.77
+            },
+            {
+                "Task": "Named Entity Recognition (NER)",
+                "Dataset": "CoNLL-2002- Dutch",
+                "Metric": "F1",
+                "Result": 85.19
+            },
+            {
+                "Task": "Text Chunking",
+                "Dataset": "CoNLL-2000",
+                "Metric": "F1",
+                "Result": 95.41
+            },
+            {
+                "Task": "Part-of-Speech (POS) Tagging",
+                "Dataset": "Penn Treebank (PTB)",
+                "Metric": "Accuracy",
+                "Result": 97.55
+            }
+        ]
+    },
+    "1603.01354.pdf": {
+        "PaperURL": "https://arxiv.org/pdf/1603.01354.pdf",
+        "TDMs": [
+            {
+                "Task": "Named Entity Recognition (NER)",
+                "Dataset": "CoNLL-2003 - English",
+                "Metric": "Precision",
+                "Result": 91.35
+            },
+            {
+                "Task": "Named Entity Recognition (NER)",
+                "Dataset": "CoNLL-2003 - English",
+                "Metric": "Recall",
+                "Result": 91.06
+            },
+            {
+                "Task": "Named Entity Recognition (NER)",
+                "Dataset": "CoNLL-2003 - English",
+                "Metric": "F1",
+                "Result": 91.21
+            },
+            {
+                "Task": "Part-of-Speech (POS) Tagging",
+                "Dataset": "Penn Treebank (PTB)",
+                "Metric": "Accuracy",
+                "Result": 97.55
+            }
+        ]
+    },
+    "1709.04109.pdf": {
+        "PaperURL": "https://arxiv.org/pdf/1709.04109.pdf",
+        "TDMs": [
+            {
+                "Task": "Named Entity Recognition (NER)",
+                "Dataset": "CoNLL-2003 - English",
+                "Metric": "F1",
+                "Result": 91.85
+            },
+            {
+                "Task": "Text Chunking",
+                "Dataset": "CoNLL-2000",
+                "Metric": "F1",
+                "Result": 96.13
+            },
+            {
+                "Task": "Part-of-Speech (POS) Tagging",
+                "Dataset": "Penn Treebank (PTB)",
+                "Metric": "Accuracy",
+                "Result": 97.59
+            }
+        ]
+    },
+    "2008.07772.pdf": {
+        "PaperURL": "https://arxiv.org/pdf/2008.07772.pdf",
+        "TDMs": [
+            {
+                "Task": "Machine Translation",
+                "Dataset": "WMT\u201914 EN-FR",
+                "Metric": "TER",
+                "Result": 40.3
+            },
+            {
+                "Task": "Machine Translation",
+                "Dataset": "WMT\u201914 EN-FR",
+                "Metric": "METEOR",
+                "Result": 62.4
+            },
+            {
+                "Task": "Machine Translation",
+                "Dataset": "WMT\u201914 EN-FR",
+                "Metric": "BLEU",
+                "Result": 43.8
+            },
+            {
+                "Task": "Machine Translation",
+                "Dataset": "WMT\u201914 EN-DE",
+                "Metric": "TER",
+                "Result": 51.8
+            },
+            {
+                "Task": "Machine Translation",
+                "Dataset": "WMT\u201914 EN-DE",
+                "Metric": "METEOR",
+                "Result": 48.3
+            },
+            {
+                "Task": "Machine Translation",
+                "Dataset": "WMT\u201914 EN-DE",
+                "Metric": "BLEU",
+                "Result": 30.1
+            }
+        ]
+    },
+    "1911.09483.pdf": {
+        "PaperURL": "https://arxiv.org/pdf/1911.09483.pdf",
+        "TDMs": [
+            {
+                "Task": "Machine Translation",
+                "Dataset": "WMT\u201914 EN-FR",
+                "Metric": "BLEU",
+                "Result": 43.5
+            },
+            {
+                "Task": "Machine Translation",
+                "Dataset": "WMT\u201914 EN-DE",
+                "Metric": "BLEU",
+                "Result": 29.9
+            },
+            {
+                "Task": "Machine Translation",
+                "Dataset": "IWSLT\u201915 EN-VI",
+                "Metric": "BLEU",
+                "Result": 31.3
+            },
+            {
+                "Task": "Machine Translation",
+                "Dataset": "IWSLT\u201914 EN-DE",
+                "Metric": "BLEU",
+                "Result": 36.3
+            }
+        ]
+    },
+    "1901.10430.pdf": {
+        "PaperURL": "https://arxiv.org/pdf/1901.10430.pdf",
+        "TDMs": [
+            {
+                "Task": "Machine Translation",
+                "Dataset": "WMT\u201914 EN-FR",
+                "Metric": "BLEU",
+                "Result": 43.2
+            },
+            {
+                "Task": "Machine Translation",
+                "Dataset": "WMT\u201914 EN-DE",
+                "Metric": "BLEU",
+                "Result": 29.7
+            },
+            {
+                "Task": "Machine Translation",
+                "Dataset": "IWSLT\u201914 EN-DE",
+                "Metric": "BLEU",
+                "Result": 35.2
+            },
+            {
+                "Task": "Machine Translation",
+                "Dataset": "WMT\u201917 EN-ZH",
+                "Metric": "BLEU",
+                "Result": 24.4
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "CNN/DailyMail",
+                "Metric": "ROGUE-1",
+                "Result": 39.84
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "CNN/DailyMail",
+                "Metric": "ROGUE-2",
+                "Result": 16.25
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "CNN/DailyMail",
+                "Metric": "ROGUE-L",
+                "Result": 36.73
+            },
+            {
+                "Task": "Language Modeling",
+                "Dataset": "Google Billion Word",
+                "Metric": "Perplexity",
+                "Result": 26.67
+            }
+        ]
+    },
+    "2002.03184.pdf": {
+        "PaperURL": "https://arxiv.org/pdf/2002.03184.pdf",
+        "TDMs": [
+            {
+                "Task": "Machine Translation",
+                "Dataset": "WMT\u201914 EN-FR",
+                "Metric": "BLEU",
+                "Result": 43.2
+            },
+            {
+                "Task": "Machine Translation",
+                "Dataset": "WMT\u201914 EN-DE",
+                "Metric": "BLEU",
+                "Result": 29.6
+            },
+            {
+                "Task": "Machine Translation",
+                "Dataset": "IWSLT\u201914 EN-DE",
+                "Metric": "BLEU",
+                "Result": 35.5
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "CNN/DailyMail",
+                "Metric": "ROGUE-1",
+                "Result": 40.59
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "CNN/DailyMail",
+                "Metric": "ROGUE-2",
+                "Result": 18.97
+            },
+            {
+                "Task": "Summarization",
+                "Dataset": "CNN/DailyMail",
+                "Metric": "ROGUE-L",
+                "Result": 36.81
+            },
+            {
+                "Task": "Language Modeling",
+                "Dataset": "WikiText-103",
+                "Metric": "Perplexity",
+                "Result": 23.3
+            }
+        ]
+    },
+    "wang19f.pdf": {
+        "PaperURL": "https://proceedings.mlr.press/v97/wang19f/wang19f.pdf",
+        "TDMs": [
+            {
+                "Task": "Language Modeling",
+                "Dataset": "WikiText-103",
+                "Metric": "Perplexity",
+                "Result": 28.0
+            },
+            {
+                "Task": "Language Modeling",
+                "Dataset": "Penn Treebank (PTB)",
+                "Metric": "Perplexity",
+                "Result": 46.01
+            },
+            {
+                "Task": "Language Modeling",
+                "Dataset": "Wikitext-2",
+                "Metric": "Perplexity",
+                "Result": 38.65
+            },
+            {
+                "Task": "Machine Translation",
+                "Dataset": "WMT\u201914 EN-DE",
+                "Metric": "BLEU",
+                "Result": 29.52
+            },
+            {
+                "Task": "Machine Translation",
+                "Dataset": "IWSLT\u201914 EN-DE",
+                "Metric": "BLEU",
+                "Result": 35.18
+            }
+        ]
+    },
+    "1804.09849.pdf": {
+        "PaperURL": "https://arxiv.org/pdf/1804.09849.pdf",
+        "TDMs": [
+            {
+                "Task": "Machine Translation",
+                "Dataset": "WMT\u201914 EN-FR",
+                "Metric": "BLEU",
+                "Result": 41.00
+            },
+            {
+                "Task": "Machine Translation",
+                "Dataset": "WMT\u201914 EN-DE",
+                "Metric": "BLEU",
+                "Result": 28.49
+            }
+        ]
+    },
+    "D18-1523.pdf": {
+        "PaperURL": "https://aclanthology.org/D18-1523.pdf",
+        "TDMs": [
+            {
+                "Task": "Word Sense Induction",
+                "Dataset": "SemEval 2013 Task 13",
+                "Metric": "Fuzzy normalized mutual information (FNMI)",
+                "Result": 11.26
+            },
+            {
+                "Task": "Word Sense Induction",
+                "Dataset": "SemEval 2013 Task 13",
+                "Metric": "Fuzzy B-Cubed (FBC)",
+                "Result": 57.49
+            },
+            {
+                "Task": "Word Sense Induction",
+                "Dataset": "SemEval 2013 Task 13",
+                "Metric": "AVG",
+                "Result": 25.43
+            }
+        ]
+    },
+    "1905.12598.pdf": {
+        "PaperURL": "https://arxiv.org/pdf/1905.12598.pdf",
+        "TDMs": [
+            {
+                "Task": "Word Sense Induction",
+                "Dataset": "SemEval 2013 Task 13",
+                "Metric": "Fuzzy normalized mutual information (FNMI)",
+                "Result": 21.4
+            },
+            {
+                "Task": "Word Sense Induction",
+                "Dataset": "SemEval 2013 Task 13",
+                "Metric": "Fuzzy B-Cubed (FBC)",
+                "Result": 64.0
+            },
+            {
+                "Task": "Word Sense Induction",
+                "Dataset": "SemEval 2013 Task 13",
+                "Metric": "AVG",
+                "Result": 37.0
+            },
+            {
+                "Task": "Word Sense Induction",
+                "Dataset": "SemEval 2010 Task 14",
+                "Metric": "F-Score (F-S)",
+                "Result": 71.3
+            },
+            {
+                "Task": "Word Sense Induction",
+                "Dataset": "SemEval 2010 Task 14",
+                "Metric": "V-Measure (V-M)",
+                "Result": 40.4
+            },
+            {
+                "Task": "Word Sense Induction",
+                "Dataset": "SemEval 2010 Task 14",
+                "Metric": "AVG",
+                "Result": 53.6
+            }
+        ]
+    },
+    "1811.09242.pdf": {
+        "PaperURL": "https://arxiv.org/pdf/1811.09242.pdf",
+        "TDMs": [
+            {
+                "Task": "Word Sense Induction",
+                "Dataset": "SemEval 2013 Task 13",
+                "Metric": "Fuzzy normalized mutual information (FNMI)",
+                "Result": 9.55
+            },
+            {
+                "Task": "Word Sense Induction",
+                "Dataset": "SemEval 2013 Task 13",
+                "Metric": "Fuzzy B-Cubed (FBC)",
+                "Result": 62.2
+            },
+            {
+                "Task": "Word Sense Induction",
+                "Dataset": "SemEval 2013 Task 13",
+                "Metric": "AVG",
+                "Result": 24.37
+            },
+            {
+                "Task": "Word Sense Induction",
+                "Dataset": "SemEval 2010 Task 14",
+                "Metric": "F-Score (F-S)",
+                "Result": 62.9
+            },
+            {
+                "Task": "Word Sense Induction",
+                "Dataset": "SemEval 2010 Task 14",
+                "Metric": "V-Measure (V-M)",
+                "Result": 10.1
+            },
+            {
+                "Task": "Word Sense Induction",
+                "Dataset": "SemEval 2010 Task 14",
+                "Metric": "AVG",
+                "Result": 25.20
+            }
+        ]
+    },
+    "1812.10235.pdf": {
+        "PaperURL": "https://arxiv.org/pdf/1812.10235.pdf",
+        "TDMs": [
+            {
+                "Task": "Intent Detection and Slot Filling",
+                "Dataset": "ATIS",
+                "Metric": "F1",
+                "Result": 96.89
+            },
+            {
+                "Task": "Intent Detection and Slot Filling",
+                "Dataset": "ATIS",
+                "Metric": "Accuracy",
+                "Result": 98.99
+            },
+            {
+                "Task": "Intent Detection and Slot Filling",
+                "Dataset": "Multi-domain Movie",
+                "Metric": "F1",
+                "Result": 93.8
+            },
+            {
+                "Task": "Intent Detection and Slot Filling",
+                "Dataset": "Multi-domain Movie",
+                "Metric": "Accuracy",
+                "Result": 95.91
+            },
+            {
+                "Task": "Intent Detection and Slot Filling",
+                "Dataset": "Multi-domain Home",
+                "Metric": "F1",
+                "Result": 95.8
+            },
+            {
+                "Task": "Intent Detection and Slot Filling",
+                "Dataset": "Multi-domain Home",
+                "Metric": "Accuracy",
+                "Result": 99.49
+            },
+            {
+                "Task": "Intent Detection and Slot Filling",
+                "Dataset": "Multi-domain Food",
+                "Metric": "F1",
+                "Result": 98.2
+            },
+            {
+                "Task": "Intent Detection and Slot Filling",
+                "Dataset": "Multi-domain Food",
+                "Metric": "Accuracy",
+                "Result": 99.27
+            }
+        ]
+    },
+    "2020.emnlp-main.152.pdf": {
+        "PaperURL": "https://aclanthology.org/2020.emnlp-main.152.pdf",
+        "TDMs": [
+            {
+                "Task": "Intent Detection and Slot Filling",
+                "Dataset": "ATIS",
+                "Metric": "F1",
+                "Result": 96.24
+            },
+            {
+                "Task": "Intent Detection and Slot Filling",
+                "Dataset": "ATIS",
+                "Metric": "Accuracy",
+                "Result": 97.74
+            },
+            {
+                "Task": "Intent Detection and Slot Filling",
+                "Dataset": "ATIS",
+                "Metric": "Sent-Accuracy",
+                "Result": 88.64
+            },
+            {
+                "Task": "Intent Detection and Slot Filling",
+                "Dataset": "SNIPS",
+                "Metric": "F1",
+                "Result": 97.05
+            },
+            {
+                "Task": "Intent Detection and Slot Filling",
+                "Dataset": "SNIPS",
+                "Metric": "Accuracy",
+                "Result": 99.04
+            },
+            {
+                "Task": "Intent Detection and Slot Filling",
+                "Dataset": "SNIPS",
+                "Metric": "Sent-Accuracy",
+                "Result": 92.96
+            }
+        ]
+    },
+    "1909.02188.pdf": {
+        "PaperURL": "https://arxiv.org/pdf/1909.02188.pdf",
+        "TDMs": [
+            {
+                "Task": "Intent Detection and Slot Filling",
+                "Dataset": "ATIS",
+                "Metric": "F1",
+                "Result": 95.9
+            },
+            {
+                "Task": "Intent Detection and Slot Filling",
+                "Dataset": "ATIS",
+                "Metric": "Accuracy",
+                "Result": 96.9
+            },
+            {
+                "Task": "Intent Detection and Slot Filling",
+                "Dataset": "ATIS",
+                "Metric": "Overall-Accuracy",
+                "Result": 86.5
+            },
+            {
+                "Task": "Intent Detection and Slot Filling",
+                "Dataset": "SNIPS",
+                "Metric": "F1",
+                "Result": 94.2
+            },
+            {
+                "Task": "Intent Detection and Slot Filling",
+                "Dataset": "SNIPS",
+                "Metric": "Accuracy",
+                "Result": 98.0
+            },
+            {
+                "Task": "Intent Detection and Slot Filling",
+                "Dataset": "SNIPS",
+                "Metric": "Overall-Accuracy",
+                "Result": 86.9
+            }
+        ]
+    },
+    "1907.00390.pdf": {
+        "PaperURL": "https://arxiv.org/pdf/1907.00390.pdf",
+        "TDMs": [
+            {
+                "Task": "Intent Detection and Slot Filling",
+                "Dataset": "ATIS",
+                "Metric": "F1",
+                "Result": 95.80
+            },
+            {
+                "Task": "Intent Detection and Slot Filling",
+                "Dataset": "ATIS",
+                "Metric": "Accuracy",
+                "Result": 97.76
+            },
+            {
+                "Task": "Intent Detection and Slot Filling",
+                "Dataset": "ATIS",
+                "Metric": "Sent-Accuracy",
+                "Result": 86.90
+            },
+            {
+                "Task": "Intent Detection and Slot Filling",
+                "Dataset": "SNIPS",
+                "Metric": "F1",
+                "Result": 92.23
+            },
+            {
+                "Task": "Intent Detection and Slot Filling",
+                "Dataset": "SNIPS",
+                "Metric": "Accuracy",
+                "Result": 97.43
+            },
+            {
+                "Task": "Intent Detection and Slot Filling",
+                "Dataset": "SNIPS",
+                "Metric": "Sent-Accuracy",
+                "Result": 80.57
+            }
+        ]
+    },
+    "1812.09471.pdf": {
+        "PaperURL": "https://arxiv.org/pdf/1812.09471.pdf",
+        "TDMs": [
+            {
+                "Task": "Intent Detection and Slot Filling",
+                "Dataset": "ATIS",
+                "Metric": "F1",
+                "Result": 0.952
+            },
+            {
+                "Task": "Intent Detection and Slot Filling",
+                "Dataset": "ATIS",
+                "Metric": "Accuracy",
+                "Result": 0.950
+            },
+            {
+                "Task": "Intent Detection and Slot Filling",
+                "Dataset": "ATIS",
+                "Metric": "Overall-Accuracy",
+                "Result": 0.834
+            },
+            {
+                "Task": "Intent Detection and Slot Filling",
+                "Dataset": "SNIPS",
+                "Metric": "F1",
+                "Result": 0.918
+            },
+            {
+                "Task": "Intent Detection and Slot Filling",
+                "Dataset": "SNIPS",
+                "Metric": "Accuracy",
+                "Result": 0.977
+            },
+            {
+                "Task": "Intent Detection and Slot Filling",
+                "Dataset": "SNIPS",
+                "Metric": "Overall-Accuracy",
+                "Result": 0.809
+            }
+        ]
+    },
+    "D18-1105.pdf": {
+        "PaperURL": "https://aclanthology.org/D18-1105.pdf",
+        "TDMs": [
+            {
+                "Task": "Dialogue Act Classification",
+                "Dataset": "Switchboard Dialog Act Corpus (SWDA)",
+                "Metric": "Accuracy",
+                "Result": 83.1
+            },
+            {
+                "Task": "Dialogue Act Classification",
+                "Dataset": "ICSI Meeting Recorder Dialog Act Corpus (MRDA)",
+                "Metric": "Accuracy",
+                "Result": 86.7
+            }
+        ]
+    },
+    "N19-1373.pdf": {
+        "PaperURL": "https://aclanthology.org/N19-1373.pdf",
+        "TDMs": [
+            {
+                "Task": "Dialogue Act Classification",
+                "Dataset": "Switchboard Dialog Act Corpus (SWDA)",
+                "Metric": "Accuracy",
+                "Result": 82.9
+            },
+            {
+                "Task": "Dialogue Act Classification",
+                "Dataset": "ICSI Meeting Recorder Dialog Act Corpus (MRDA)",
+                "Metric": "Accuracy",
+                "Result": 91.1
+            }
+        ]
+    },
+    "K19-1036.pdf": {
+        "PaperURL": "https://aclanthology.org/K19-1036.pdf",
+        "TDMs": [
+            {
+                "Task": "Dialogue Act Classification",
+                "Dataset": "Switchboard Dialog Act Corpus (SWDA)",
+                "Metric": "Accuracy",
+                "Result": 82.3
+            },
+            {
+                "Task": "Dialogue Act Classification",
+                "Dataset": "ICSI Meeting Recorder Dialog Act Corpus (MRDA)",
+                "Metric": "Accuracy",
+                "Result": 92.2
+            },
+            {
+                "Task": "Dialogue Act Classification",
+                "Dataset": "Dailydialog (DyDA)",
+                "Metric": "Accuracy",
+                "Result": 88.1
+            }
+        ]
+    },
+    "1811.05021.pdf": {
+        "PaperURL": "https://arxiv.org/pdf/1811.05021.pdf",
+        "TDMs": [
+            {
+                "Task": "Dialogue Act Classification",
+                "Dataset": "Switchboard Dialog Act Corpus (SWDA)",
+                "Metric": "Accuracy",
+                "Result": 81.5
+            },
+            {
+                "Task": "Dialogue Act Classification",
+                "Dataset": "MapTask",
+                "Metric": "Accuracy",
+                "Result": 68.5
+            }
+        ]
+    },
+    "1711.05568.pdf": {
+        "PaperURL": "https://arxiv.org/pdf/1711.05568.pdf",
+        "TDMs": [
+            {
+                "Task": "Dialogue Act Classification",
+                "Dataset": "Switchboard Dialog Act Corpus (SWDA)",
+                "Metric": "Accuracy",
+                "Result": 81.3
+            },
+            {
+                "Task": "Dialogue Act Classification",
+                "Dataset": "ICSI Meeting Recorder Dialog Act Corpus (MRDA)",
+                "Metric": "Accuracy",
+                "Result": 91.7
+            }
+        ]
+    }
+}

@@ -1,0 +1,331 @@
+[
+    {
+        "Task": "Summarization",
+        "Dataset": "Gigaword",
+        "Metric": "ROGUE-1",
+        "Leaderboard": {
+            "2001.04063.pdf": 39.51,
+            "1911.10390.pdf": 39.19,
+            "1912.08777.pdf": 39.12,
+            "1906.05012.pdf": 39.11,
+            "1905.03197.pdf": 38.45
+        }
+    },
+    {
+        "Task": "Summarization",
+        "Dataset": "Gigaword",
+        "Metric": "ROGUE-2",
+        "Leaderboard": {
+            "1911.10390.pdf": 20.47,
+            "2001.04063.pdf": 20.42,
+            "1912.08777.pdf": 19.86,
+            "1906.05012.pdf": 19.78,
+            "1905.03197.pdf": 19.45
+        }
+    },
+    {
+        "Task": "Summarization",
+        "Dataset": "Gigaword",
+        "Metric": "ROGUE-L",
+        "Leaderboard": {
+            "1906.05012.pdf": 36.87,
+            "1911.10390.pdf": 36.69,
+            "2001.04063.pdf": 36.69,
+            "1912.08777.pdf": 36.24,
+            "1905.03197.pdf": 35.75
+        }
+    },
+    {
+        "Task": "Summarization",
+        "Dataset": "CNN/DailyMail",
+        "Metric": "ROGUE-1",
+        "Leaderboard": {
+            "2203.16804.pdf": 47.78,
+            "2001.04063.pdf": 44.2,
+            "1912.08777.pdf": 44.17,
+            "1910.13461.pdf": 44.16,
+            "1908.08345.pdf": 43.85,
+            "1905.03197.pdf": 43.33,
+            "2002.03184.pdf": 40.59,
+            "1901.10430.pdf": 39.84
+        }
+    },
+    {
+        "Task": "Summarization",
+        "Dataset": "CNN/DailyMail",
+        "Metric": "ROGUE-2",
+        "Leaderboard": {
+            "2203.16804.pdf": 23.55,
+            "1912.08777.pdf": 21.47,
+            "1910.13461.pdf": 21.28,
+            "2001.04063.pdf": 21.17,
+            "1908.08345.pdf": 20.34,
+            "1905.03197.pdf": 20.21,
+            "2002.03184.pdf": 18.97,
+            "1901.10430.pdf": 16.25
+        }
+    },
+    {
+        "Task": "Summarization",
+        "Dataset": "CNN/DailyMail",
+        "Metric": "ROGUE-L",
+        "Leaderboard": {
+            "2203.16804.pdf": 44.57,
+            "2001.04063.pdf": 41.3,
+            "1912.08777.pdf": 41.11,
+            "1910.13461.pdf": 40.9,
+            "1905.03197.pdf": 40.51,
+            "1908.08345.pdf": 39.9,
+            "2002.03184.pdf": 36.81,
+            "1901.10430.pdf": 36.73
+        }
+    },
+    {
+        "Task": "Summarization",
+        "Dataset": "XSum",
+        "Metric": "ROGUE-1",
+        "Leaderboard": {
+            "2203.16804.pdf": 49.07,
+            "1912.08777.pdf": 47.21,
+            "1910.13461.pdf": 45.14,
+            "1908.08345.pdf": 38.81,
+            "1808.08745.pdf": 31.89
+        }
+    },
+    {
+        "Task": "Summarization",
+        "Dataset": "XSum",
+        "Metric": "ROGUE-2",
+        "Leaderboard": {
+            "2203.16804.pdf": 25.59,
+            "1912.08777.pdf": 24.56,
+            "1910.13461.pdf": 22.27,
+            "1908.08345.pdf": 16.5,
+            "1808.08745.pdf": 11.54
+        }
+    },
+    {
+        "Task": "Summarization",
+        "Dataset": "XSum",
+        "Metric": "ROGUE-L",
+        "Leaderboard": {
+            "2203.16804.pdf": 40.4,
+            "1912.08777.pdf": 39.25,
+            "1910.13461.pdf": 37.25,
+            "1908.08345.pdf": 31.27,
+            "1808.08745.pdf": 25.75
+        }
+    },
+    {
+        "Task": "Named Entity Recognition (NER)",
+        "Dataset": "Ontonotes v5 - English",
+        "Metric": "F1",
+        "Leaderboard": {
+            "2020.findings-emnlp.378.pdf": 90.32,
+            "1809.08370.pdf": 88.8,
+            "1806.03489.pdf": 87.95,
+            "1702.02098.pdf": 86.99,
+            "1511.08308.pdf": 86.28
+        }
+    },
+    {
+        "Task": "Named Entity Recognition (NER)",
+        "Dataset": "WNUT-16 - English",
+        "Metric": "F1",
+        "Leaderboard": {
+            "2105.03654.pdf": 58.98,
+            "2020.findings-emnlp.378.pdf": 55.14,
+            "128538.pdf": 53.48
+        }
+    },
+    {
+        "Task": "Named Entity Recognition (NER)",
+        "Dataset": "WNUT-17 - English",
+        "Metric": "F1",
+        "Leaderboard": {
+            "2105.03654.pdf": 60.45,
+            "2020.findings-emnlp.378.pdf": 50.68,
+            "128538.pdf": 50.52
+        }
+    },
+    {
+        "Task": "Text Chunking",
+        "Dataset": "CoNLL-2000",
+        "Metric": "F1",
+        "Leaderboard": {
+            "1809.08370.pdf": 97.0,
+            "C18-1139.pdf": 96.72,
+            "1709.04109.pdf": 96.13,
+            "1703.06345.pdf": 95.41,
+            "D18-1279.pdf": 95.29
+        }
+    },
+    {
+        "Task": "Named Entity Recognition (NER)",
+        "Dataset": "CoNLL-2003 - English",
+        "Metric": "F1",
+        "Leaderboard": {
+            "2020.emnlp-main.523.pdf": 94.3,
+            "128538.pdf": 93.76,
+            "2105.03654.pdf": 93.56,
+            "1903.07785.pdf": 93.5,
+            "D19-1367.pdf": 93.47,
+            "C18-1139.pdf": 93.09,
+            "1809.08370.pdf": 92.6,
+            "1709.04109.pdf": 91.85,
+            "1806.03489.pdf": 91.73,
+            "D18-1279.pdf": 91.64,
+            "1511.08308.pdf": 91.62,
+            "1703.06345.pdf": 91.26,
+            "1603.01354.pdf": 91.21,
+            "1702.02098.pdf": 90.65
+        }
+    },
+    {
+        "Task": "Part-of-Speech (POS) Tagging",
+        "Dataset": "Penn Treebank (PTB)",
+        "Metric": "Accuracy",
+        "Leaderboard": {
+            "C18-1139.pdf": 97.85,
+            "1809.08370.pdf": 97.74,
+            "1709.04109.pdf": 97.59,
+            "1703.06345.pdf": 97.55,
+            "1603.01354.pdf": 97.55
+        }
+    },
+    {
+        "Task": "Machine Translation",
+        "Dataset": "WMT\u201914 EN-FR",
+        "Metric": "BLEU",
+        "Leaderboard": {
+            "2008.07772.pdf": 43.8,
+            "1911.09483.pdf": 43.5,
+            "1901.10430.pdf": 43.2,
+            "2002.03184.pdf": 43.2,
+            "1804.09849.pdf": 41.0
+        }
+    },
+    {
+        "Task": "Machine Translation",
+        "Dataset": "WMT\u201914 EN-DE",
+        "Metric": "BLEU",
+        "Leaderboard": {
+            "2008.07772.pdf": 30.1,
+            "1911.09483.pdf": 29.9,
+            "1901.10430.pdf": 29.7,
+            "2002.03184.pdf": 29.6,
+            "wang19f.pdf": 29.52,
+            "1804.09849.pdf": 28.49
+        }
+    },
+    {
+        "Task": "Machine Translation",
+        "Dataset": "IWSLT\u201914 EN-DE",
+        "Metric": "BLEU",
+        "Leaderboard": {
+            "1911.09483.pdf": 36.3,
+            "2002.03184.pdf": 35.5,
+            "1901.10430.pdf": 35.2,
+            "wang19f.pdf": 35.18
+        }
+    },
+    {
+        "Task": "Word Sense Induction",
+        "Dataset": "SemEval 2013 Task 13",
+        "Metric": "Fuzzy normalized mutual information (FNMI)",
+        "Leaderboard": {
+            "1905.12598.pdf": 21.4,
+            "D18-1523.pdf": 11.26,
+            "1811.09242.pdf": 9.55
+        }
+    },
+    {
+        "Task": "Word Sense Induction",
+        "Dataset": "SemEval 2013 Task 13",
+        "Metric": "Fuzzy B-Cubed (FBC)",
+        "Leaderboard": {
+            "1905.12598.pdf": 64.0,
+            "1811.09242.pdf": 62.2,
+            "D18-1523.pdf": 57.49
+        }
+    },
+    {
+        "Task": "Word Sense Induction",
+        "Dataset": "SemEval 2013 Task 13",
+        "Metric": "AVG",
+        "Leaderboard": {
+            "1905.12598.pdf": 37.0,
+            "D18-1523.pdf": 25.43,
+            "1811.09242.pdf": 24.37
+        }
+    },
+    {
+        "Task": "Intent Detection and Slot Filling",
+        "Dataset": "ATIS",
+        "Metric": "F1",
+        "Leaderboard": {
+            "1812.10235.pdf": 96.89,
+            "2020.emnlp-main.152.pdf": 96.24,
+            "1909.02188.pdf": 95.9,
+            "1907.00390.pdf": 95.8,
+            "1812.09471.pdf": 0.952
+        }
+    },
+    {
+        "Task": "Intent Detection and Slot Filling",
+        "Dataset": "ATIS",
+        "Metric": "Accuracy",
+        "Leaderboard": {
+            "1812.10235.pdf": 98.99,
+            "1907.00390.pdf": 97.76,
+            "2020.emnlp-main.152.pdf": 97.74,
+            "1909.02188.pdf": 96.9,
+            "1812.09471.pdf": 0.95
+        }
+    },
+    {
+        "Task": "Intent Detection and Slot Filling",
+        "Dataset": "SNIPS",
+        "Metric": "F1",
+        "Leaderboard": {
+            "2020.emnlp-main.152.pdf": 97.05,
+            "1909.02188.pdf": 94.2,
+            "1907.00390.pdf": 92.23,
+            "1812.09471.pdf": 0.918
+        }
+    },
+    {
+        "Task": "Intent Detection and Slot Filling",
+        "Dataset": "SNIPS",
+        "Metric": "Accuracy",
+        "Leaderboard": {
+            "2020.emnlp-main.152.pdf": 99.04,
+            "1909.02188.pdf": 98.0,
+            "1907.00390.pdf": 97.43,
+            "1812.09471.pdf": 0.977
+        }
+    },
+    {
+        "Task": "Dialogue Act Classification",
+        "Dataset": "Switchboard Dialog Act Corpus (SWDA)",
+        "Metric": "Accuracy",
+        "Leaderboard": {
+            "D18-1105.pdf": 83.1,
+            "N19-1373.pdf": 82.9,
+            "K19-1036.pdf": 82.3,
+            "1811.05021.pdf": 81.5,
+            "1711.05568.pdf": 81.3
+        }
+    },
+    {
+        "Task": "Dialogue Act Classification",
+        "Dataset": "ICSI Meeting Recorder Dialog Act Corpus (MRDA)",
+        "Metric": "Accuracy",
+        "Leaderboard": {
+            "K19-1036.pdf": 92.2,
+            "1711.05568.pdf": 91.7,
+            "N19-1373.pdf": 91.1,
+            "D18-1105.pdf": 86.7
+        }
+    }
+]

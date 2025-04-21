@@ -1,10 +1,8 @@
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain_community.vectorstores import Chroma
-from langchain_core.vectorstores import VectorStoreRetriever
-from langchain_core.retrievers import BaseRetriever
-from langchain_core.callbacks import CallbackManagerForRetrieverRun
-from langchain_core.documents import Document
+from langchain.embeddings import HuggingFaceEmbeddings
+from langchain.vectorstores import Chroma
+from langchain.schema import BaseRetriever, Document
+from langchain.callbacks.manager import CallbackManagerForRetrieverRun
 from unstructured.partition.pdf import partition_pdf
 from typing import List
 
@@ -83,24 +81,22 @@ class Documents:
 
 
 class CustomRetriever(BaseRetriever):
-
-    vector_retriever: VectorStoreRetriever
-    external_docs: List
+    def __init__(self, vector_retriever, external_docs):
+        self.vector_retriever = vector_retriever
+        self.external_docs = external_docs
 
     def _get_relevant_documents(
             self, query: str, *, run_manager: CallbackManagerForRetrieverRun
     ) -> List[Document]:
-
         vector_retriever_docs = self.vector_retriever.get_relevant_documents(query)
         return vector_retriever_docs + self.external_docs
 
 
 class CustomDummyRetriever(BaseRetriever):
-
-    external_docs: List
+    def __init__(self, external_docs):
+        self.external_docs = external_docs
 
     def _get_relevant_documents(
             self, query: str, *, run_manager: CallbackManagerForRetrieverRun
     ) -> List[Document]:
-
         return self.external_docs
