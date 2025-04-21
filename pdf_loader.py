@@ -1,6 +1,7 @@
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.embeddings import HuggingFaceEmbeddings
-from langchain.vectorstores import Chroma
+from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_community.vectorstores import Chroma
+
 from langchain.schema import BaseRetriever, Document
 from langchain.callbacks.manager import CallbackManagerForRetrieverRun
 from unstructured.partition.pdf import partition_pdf
@@ -80,10 +81,23 @@ class Documents:
         return tables, list(text_by_page.values())
 
 
+# class CustomRetriever(BaseRetriever):
+#     def __init__(self, vector_retriever, external_docs):
+#         self.vector_retriever = vector_retriever
+#         self.external_docs = external_docs
+
+#     def _get_relevant_documents(
+#             self, query: str, *, run_manager: CallbackManagerForRetrieverRun
+#     ) -> List[Document]:
+#         vector_retriever_docs = self.vector_retriever.get_relevant_documents(query)
+#         return vector_retriever_docs + self.external_docs
+
+from pydantic import Field
+from typing import Any
+
 class CustomRetriever(BaseRetriever):
-    def __init__(self, vector_retriever, external_docs):
-        self.vector_retriever = vector_retriever
-        self.external_docs = external_docs
+    vector_retriever: Any = Field()
+    external_docs: List[Document] = Field()
 
     def _get_relevant_documents(
             self, query: str, *, run_manager: CallbackManagerForRetrieverRun
