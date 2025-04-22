@@ -41,11 +41,14 @@ def get_config(args):
     config.model_path = args.model_path
 
     # Output path
-    config.output_path = args.output_path + config.exp_id + '-' + config.model_type + '-' + datetime.now().strftime('%d.%m.%Y-%H:%M:%S') + '/'
+    config.output_path = args.output_path + config.exp_id + '-' + config.model_type + '-' + datetime.now().strftime('%d.%m.%Y-%H_%M_%S') + '/'
 
     # Prompt file
-    with open(args.prompt_file) as fr:
+    # with open(args.prompt_file) as fr:
+    #     prompts = json.load(fr)
+    with open(args.prompt_file, "r", encoding="utf-8") as fr:
         prompts = json.load(fr)
+
 
     config.system_prompt = prompts['tdm-extraction-system-prompt']
     config.few_shot_system_prompt = prompts['few-shot-extraction-system-prompt']

@@ -1,0 +1,6 @@
+{
+  "output_path": "processed_docsllama2_exp-21.04.2025-14_39_44/",
+  "papers_path": "paperDataset",
+  "process_id": "llama2_exp",
+  "query": "Main task, datasets and evaluation metrics."
+}

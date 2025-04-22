@@ -38,3 +38,5 @@ def gpt(env_file_path, deployment_name, model_version, max_new_tokens, seed):
     model = AzureChatOpenAI(deployment_name=deployment_name, openai_api_version='2023-12-01-preview', model_version=model_version, max_tokens=max_new_tokens, model_kwargs={"seed": seed})
 
     return model
+
+

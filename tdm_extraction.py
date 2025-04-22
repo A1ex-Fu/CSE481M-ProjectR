@@ -121,3 +121,5 @@ if __name__ == '__main__':
     parser.add_argument('--seed', default=0, type=int)
 
     main(tdm_extraction_config.get_config(parser.parse_args()))
+
+

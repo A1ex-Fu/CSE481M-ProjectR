@@ -106,9 +106,20 @@ class CustomRetriever(BaseRetriever):
         return vector_retriever_docs + self.external_docs
 
 
+# class CustomDummyRetriever(BaseRetriever):
+#     def __init__(self, external_docs):
+#         self.external_docs = external_docs
+
+#     def _get_relevant_documents(
+#             self, query: str, *, run_manager: CallbackManagerForRetrieverRun
+#     ) -> List[Document]:
+#         return self.external_docs
+
+from pydantic import Field
+from typing import Any
+
 class CustomDummyRetriever(BaseRetriever):
-    def __init__(self, external_docs):
-        self.external_docs = external_docs
+    external_docs: List[Document] = Field()
 
     def _get_relevant_documents(
             self, query: str, *, run_manager: CallbackManagerForRetrieverRun

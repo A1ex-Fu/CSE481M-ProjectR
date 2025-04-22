@@ -5,7 +5,7 @@ from langchain_core.prompts.chat import ChatPromptTemplate, HumanMessagePromptTe
 class TDMPrompt:
 
     def __init__(self, system_prompt, model_type):
-        if model_type == 'llama-2-chat-70b':
+        if model_type == 'llama-2-chat-70b' or model_type == 'llama2':
             initial_template = "<s>[INST] <<SYS>>\n" + system_prompt + "\n<</SYS>>\n\n{question}\n\nRetrieved document contents:\n\n{context}.\n\n Output json: [/INST]"
             self.prompt_template = PromptTemplate(template=initial_template, input_variables=["context", "question"])
 
@@ -25,13 +25,13 @@ class TDMPrompt:
             self.prompt_template = PromptTemplate(template=initial_template, input_variables=["context", "question"])
 
         else:
-            raise ValueError('Unrecognized model type')
+            raise ValueError('Unrecognized model type %s', model_type)
 
 
 class NormalizationPrompt:
 
     def __init__(self, system_prompt, model_type):
-        if model_type == 'llama-2-chat-70b':
+        if model_type == 'llama-2-chat-70b' or model_type == 'llama2':
             initial_template = "<s>[INST] <<SYS>>\n" + system_prompt + "\n<</SYS>>\n\nItem list: {items}\n\nInput: {input}\n\nAnswer: [/INST]"
             self.prompt_template = PromptTemplate(template=initial_template, input_variables=["items", "input"])
 

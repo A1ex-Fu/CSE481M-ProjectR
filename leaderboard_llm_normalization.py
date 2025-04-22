@@ -47,7 +47,7 @@ def main(args):
                                           'completion_tokens': cb.completion_tokens,
                                           'total_cost': cb.total_cost})
 
-                    elif config['model_type'] == 'llama-2-chat-70b' or config['model_type'] == 'llama-3-instruct-70b':
+                    elif config['model_type'] == 'llama-2' or config['model_type'] == 'llama-2-chat-70b' or config['model_type'] == 'llama-3-instruct-70b':
                         answer = llm.invoke(prompt.prompt_template.invoke({'items': '{' + ", ".join(leaderboard_tdm_set) + '}', 'input': model_tuple}))[2:]
 
                     elif config['model_type'] == 'Mixtral-8x7B-Instruct-v0.1':
