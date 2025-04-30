@@ -6,7 +6,7 @@ from langchain.schema import BaseRetriever, Document
 from langchain.callbacks.manager import CallbackManagerForRetrieverRun
 from unstructured.partition.pdf import partition_pdf
 from typing import List
-
+import os
 
 class PreProcessedDocuments:
 
@@ -28,6 +28,8 @@ class Documents:
     def init_retriever(self, chunk_size=2000, chunk_overlap=200, model_name='multi-qa-mpnet-base-dot-v1'):
         # Max seq. length ~500 tokens => ~2000 chars (0.45 page)
         self.tables, paper_text = self.extract_text_and_tables()
+
+
         self.split_docs = RecursiveCharacterTextSplitter(separators=[" ", ""], chunk_size=chunk_size, chunk_overlap=chunk_overlap, add_start_index=True).split_documents(paper_text)
         self.db = Chroma.from_documents(documents=self.split_docs, embedding=HuggingFaceEmbeddings(model_name=model_name))
 
@@ -36,9 +38,12 @@ class Documents:
     def extract_text_and_tables(self):
 
         elements = partition_pdf(filename=self.pdf_directory, strategy='hi_res', infer_table_structure=True)
+        #elements = partition_pdf(filename=self.pdf_directory, strategy='auto')
         text_by_page = {}
         tables = []
         captions = []
+                
+                
         for i, el in enumerate(elements):
             if el.category == "Table":
                 try:

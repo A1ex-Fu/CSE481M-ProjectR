@@ -43,7 +43,6 @@
 
 #     main(doc_preprocess_config.get_config(parser.parse_args()))
 
-
 from pdf_loader import Documents
 import argparse
 import os
@@ -64,13 +63,15 @@ def main(config):
 
     retrieved_docs = {}
 
-    documents = Documents(pdf_directory=os.path.join(config.papers_path, paper_list[0])) 
-    retriever = documents.init_retriever() 
-
     for paper in tqdm.tqdm(paper_list, total=len(paper_list)):
-        documents.pdf_directory = os.path.join(config.papers_path, paper)
+
+        documents = Documents(pdf_directory=os.path.join(config.papers_path, paper))
+
+        retriever = documents.init_retriever()
 
         retrieved_docs[paper] = retriever.invoke(config.query)
+
+        documents.db.delete_collection()
 
     with open(config.output_path + 'processed_docs.pkl', 'wb') as fw:
         pickle.dump(retrieved_docs, fw)
