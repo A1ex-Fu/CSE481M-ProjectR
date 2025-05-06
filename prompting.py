@@ -20,7 +20,7 @@ class TDMPrompt:
             human_message_prompt = HumanMessagePromptTemplate.from_template("{question}\n\nRetrieved document contents:\n\n{context}.\n\n Output json:\n\n")
             self.prompt_template = ChatPromptTemplate.from_messages([system_message_prompt, human_message_prompt])
 
-        elif model_type == 'Mixtral-8x7B-Instruct-v0.1':
+        elif model_type == 'Mixtral-8x7B-Instruct-v0.1' or model_type == 'deepseek':
             initial_template = "<s>[INST] " + system_prompt + "\n\n{question}\n\nRetrieved document contents:\n\n{context}.\n\n Output json: [/INST]"
             self.prompt_template = PromptTemplate(template=initial_template, input_variables=["context", "question"])
 
@@ -46,7 +46,7 @@ class NormalizationPrompt:
             human_message_prompt = HumanMessagePromptTemplate.from_template("\n\nItem list: {items}\n\nInput: {input}\n\nAnswer: ")
             self.prompt_template = ChatPromptTemplate.from_messages([system_message_prompt, human_message_prompt])
 
-        elif model_type == 'Mixtral-8x7B-Instruct-v0.1':
+        elif model_type == 'Mixtral-8x7B-Instruct-v0.1' or model_type == 'deepseek':
             initial_template = "<s>[INST] " + system_prompt + "\n\nItem list: {items}\n\nInput: {input}\n\nAnswer: [/INST]"
             self.prompt_template = PromptTemplate(template=initial_template, input_variables=["items", "input"])
 

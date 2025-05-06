@@ -2,12 +2,13 @@ import model_init
 from transformers import pipeline
 from langchain import HuggingFacePipeline
 import json
-from langchain.schema import LLMResult
+from langchain.schema import LLMResult, Generation
 from langchain.callbacks.manager import CallbackManagerForLLMRun
 from langchain.llms.base import BaseLLM
 from typing import Optional, List, Any, Mapping
 import requests
 import os
+from openai import OpenAI
 
 def read_json(path):
 
@@ -20,8 +21,8 @@ def llm_init_langchain(config, max_new_tokens, seed):
 
     if config.model_type.lower() == 'deepseek':
         return DeepSeekLLM(
-            api_key=os.getenv("sk-6624f2437ba84a0dab5fb0586c6d283b"),  # Or from config
-            # model_name=config.model_version,
+            api_key="sk-6624f2437ba84a0dab5fb0586c6d283b",  # Or from config
+            model_name=config.model_version,
             max_tokens=max_new_tokens,
             temperature=0.7  # Adjust as needed
         )
@@ -92,32 +93,20 @@ class DeepSeekLLM(BaseLLM):
         run_manager: Optional[CallbackManagerForLLMRun] = None,
         **kwargs: Any,
     ) -> LLMResult:
-        responses = []
+        client = OpenAI(api_key=self.api_key, base_url="https://api.deepseek.com")
+        all_generations: List[List[Generation]] = []
         for prompt in prompts:
-            headers = {
-                "Authorization": f"Bearer {self.api_key}",
-                "Content-Type": "application/json"
-            }
-            
-            data = {
-                "model": self.model_name,
-                "messages": [{"role": "user", "content": prompt}],
-                "temperature": self.temperature,
-                "max_tokens": self.max_tokens
-            }
-            
-            response = requests.post(
-                "https://api.deepseek.com/v1/chat/completions",
-                headers=headers,
-                json=data
+
+            response = client.chat.completions.create(
+                model="deepseek-chat",
+                messages=[{"role": "user", "content": prompt}],
+                temperature=self.temperature,
+                max_tokens=self.max_tokens
             )
             
-            if response.status_code == 200:
-                responses.append([response.json()['choices'][0]['message']['content']])
-            else:
-                raise Exception(f"DeepSeek API request failed: {response.text}")
+            all_generations.append([Generation(text=response.choices[0].message.content)])
         
-        return LLMResult(generations=[responses])
+        return LLMResult(generations=all_generations)
     
     def _call(
         self,
