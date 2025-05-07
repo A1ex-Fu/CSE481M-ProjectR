@@ -54,6 +54,8 @@ def main(args):
                         answer = llm.invoke(prompt.prompt_template.invoke({'items': '{' + ", ".join(leaderboard_tdm_set) + '}', 'input': model_tuple}))[1:]
                         if (answer[0] == '"' and answer[-1] == '"') or (answer[0] == "'" and answer[-1] == "'"):
                             answer = answer[1:-1]
+                    elif config['model_type'] == 'deepseek':
+                        answer = llm.invoke(prompt.prompt_template.invoke({'items': '{' + ", ".join(leaderboard_tdm_set) + '}', 'input': model_tuple}))
                     else:
                         raise ValueError('Model type {} not supported', config['model_type'])
 

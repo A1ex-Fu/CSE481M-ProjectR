@@ -19,10 +19,10 @@ def read_json(path):
 
 def llm_init_langchain(config, max_new_tokens, seed):
 
-    if config.model_type.lower() == 'deepseek':
+    if config['model_type'] == 'deepseek':
         return DeepSeekLLM(
             api_key="sk-6624f2437ba84a0dab5fb0586c6d283b",  # Or from config
-            model_name=config.model_version,
+            model_name=config['model_type'],
             max_tokens=max_new_tokens,
             temperature=0.7  # Adjust as needed
         )

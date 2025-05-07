@@ -63,6 +63,8 @@ def main(args):
                         answer = llm.invoke(prompt.prompt_template.invoke({'items': str(labels_dict[key]), 'input': tdm[key]}))[1:]
                         if (answer[0] == '"' and answer[-1] == '"') or (answer[0] == "'" and answer[-1] == "'"):
                             answer = answer[1:-1]
+                    elif config['model_type'] == 'deepseek':
+                        answer = llm.invoke(prompt.prompt_template.invoke({'items': str(labels_dict[key]), 'input': tdm[key]}))
                     else:
                         raise ValueError('Model type {} not supported', config['model_type'])
 
