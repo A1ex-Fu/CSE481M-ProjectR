@@ -42,6 +42,10 @@ def main(args):
     llm = utils.llm_init_langchain(config, max_new_tokens=args.max_new_tokens, seed=args.seed)
 
     for i, paper in enumerate(tqdm.tqdm(model_output, total=len(model_output))):
+
+        if i<24:
+            continue
+            
         tdms = json.loads(model_output[paper]['output'])
 
         normalized_tdms = []

@@ -73,7 +73,7 @@ def main(args):
     eval_scores = {}
 
     gold_leaderboards = utils.read_json(args.gold_leaderboards_file)
-    normalized_output = utils.read_json(args.normalized_output_file)
+    normalized_output = utils.read_json(args.normalized_tdm_output_path)
 
     output_leaderboards = construct_output_leaderboards(gold_leaderboards, normalized_output)
     eval_scores['gold_results'] = evaluate(output_leaderboards, gold_leaderboards)
