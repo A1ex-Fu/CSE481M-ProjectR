@@ -1,0 +1,24 @@
+{
+    "Exact Match Recall": 0.4558682790078139,
+    "Exact Match Precision": 0.44784371380201377,
+    "Exact Match Recall wo Results": 0.6105331232075418,
+    "Exact Match Precision wo Results": 0.6086824540513394,
+    "Individual": {
+        "Task": {
+            "Recall": 0.9608711701734959,
+            "Precision": 0.9327242524916944
+        },
+        "Dataset": {
+            "Recall": 0.8580908261824813,
+            "Precision": 0.8459201651062115
+        },
+        "Metric": {
+            "Recall": 0.8013507164669954,
+            "Precision": 0.7242063492063492
+        },
+        "Result": {
+            "Recall": 0.7679550552806366,
+            "Precision": 0.7296349333638829
+        }
+    }
+}

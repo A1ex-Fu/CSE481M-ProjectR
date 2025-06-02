@@ -42,10 +42,6 @@ def main(args):
     llm = utils.llm_init_langchain(config, max_new_tokens=args.max_new_tokens, seed=args.seed)
 
     for i, paper in enumerate(tqdm.tqdm(model_output, total=len(model_output))):
-
-        if i<24:
-            continue
-            
         tdms = json.loads(model_output[paper]['output'])
 
         normalized_tdms = []
@@ -68,20 +64,31 @@ def main(args):
                         if (answer[0] == '"' and answer[-1] == '"') or (answer[0] == "'" and answer[-1] == "'"):
                             answer = answer[1:-1]
                     elif config['model_type'] == 'deepseek':
+                        # print(prompt.prompt_template.invoke({'items': str(labels_dict[key]), 'input': tdm[key]}))
+                        # print()
                         answer = llm.invoke(prompt.prompt_template.invoke({'items': str(labels_dict[key]), 'input': tdm[key]}))
                     else:
                         raise ValueError('Model type {} not supported', config['model_type'])
 
-                    if answer in labels_dict[key]:
-                        normalized_tdm[key] = answer
-                    else:
-                        normalized_tdm[key] = None
+                    # Drop EOS token
+                    answer = answer[:-4] if answer.endswith("</s>") else answer
+
+                    # if answer in labels_dict[key]:
+                    normalized_tdm[key] = answer
+                    # else:
+                    #     print("UH OH BAD")
+                    #     print(answer)
+                    #     print(labels_dict[key])
+                    #     print()
+                    #     normalized_tdm[key] = None
                 else:
                     normalized_tdm[key] = str(tdm[key])
 
             normalized_tdms.append(normalized_tdm)
 
         normalized_output[paper] = {'normalized_output': normalized_tdms, 'source_documents': model_output[paper]['source_documents']}
+        # test to see whether find closest match is possible
+        # print(normalized_output[paper])
 
     os.makedirs(args.tdm_output_path + 'normalization/', exist_ok=True)
 
@@ -101,7 +108,7 @@ if __name__ == '__main__':
     parser.add_argument('--gold_tdm_path', required=True, type=str)
     parser.add_argument('--tdm_output_path', required=True, type=str)
     parser.add_argument('--prompt_file', default='prompts.json', type=str)
-    parser.add_argument('--max_new_tokens', default=15, type=int)
+    parser.add_argument('--max_new_tokens', default=200, type=int)
     parser.add_argument('--seed', default=0, type=int)
 
     main(parser.parse_args())

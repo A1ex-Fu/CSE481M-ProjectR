@@ -76,15 +76,18 @@ def main(args):
     normalized_output = utils.read_json(args.normalized_tdm_output_path)
 
     output_leaderboards = construct_output_leaderboards(gold_leaderboards, normalized_output)
-    eval_scores['gold_results'] = evaluate(output_leaderboards, gold_leaderboards)
+    print(output_leaderboards)
+    print()
+    print(gold_leaderboards)
+    # eval_scores['gold_results'] = evaluate(output_leaderboards, gold_leaderboards)
 
-    if args.masked_leaderboards_file != "":
-        masked_leaderboards = utils.read_json(args.masked_leaderboards_file)
+    # if args.masked_leaderboards_file != "":
+    #     masked_leaderboards = utils.read_json(args.masked_leaderboards_file)
 
-        masked_output_leaderboards = construct_output_leaderboards(masked_leaderboards, normalized_output)
-        eval_scores['masked_results'] = evaluate(masked_output_leaderboards, masked_leaderboards)
+    #     masked_output_leaderboards = construct_output_leaderboards(masked_leaderboards, normalized_output)
+    #     eval_scores['masked_results'] = evaluate(masked_output_leaderboards, masked_leaderboards)
 
-    save_results(eval_scores, args.eval_results_file, args.eval_values_file)
+    # save_results(eval_scores, args.eval_results_file, args.eval_values_file)
 
 
 if __name__ == '__main__':
