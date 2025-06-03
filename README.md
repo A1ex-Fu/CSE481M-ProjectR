@@ -99,6 +99,26 @@ You can simply run following command to extract TDMR tuples from pre-processed f
 python tdm_extraction.py --env_file_path /path/to/env/file --exp_id "an identifier for exp" --processed_docs_path /path/to/processed_docs --papers_path /path/to/papers --prompt_file prompts.json --output_path /path/to/output --model_type "chosen model type" --model_version "version of the model" --depl "version of the model" -- model_path /path/to/model --is_preprocessed_doc
 ```
 
+To run with Deepseek and existing preprocessed papers:
+Note that the command assumes that the preprocessed papers from this repo exist
+'''
+python tdm_extraction.py \
+  --env_file_path config/env.json \
+  --exp_id deepseek_run1 \
+  --processed_docs_path processedPapers10-29.04.2025-15_12_41/processed_docs.pkl \
+  --papers_path paperDataset \
+  --prompt_file prompts.json \
+  --output_path output/deepseek/ \
+  --model_type deepseek \
+  --model_version r1 \
+  --deployment_name local \
+  --model_path "" \
+  --is_few_shot \
+  --max_new_tokens 1024 \
+  --seed 42 \
+  --is_preprocessed_doc
+'''
+
 Parameter explanation:
 
 * ```env_file_path``` 
@@ -120,16 +140,16 @@ Parameter explanation:
   * Path where extraction outputs are saved.
 
 * ```model_type```
-  * Type of the model that will be used in experiments. Please select one of the following options: {llama-2-chat-70b, Mixtral-8x7B-Instruct-v0.1, llama-3-instruct-70b, gpt4-turbo-128k}
+  * Type of the model that will be used in experiments. Please select one of the following options: {llama-2-chat-70b, Mixtral-8x7B-Instruct-v0.1, llama-3-instruct-70b, gpt4-turbo-128k, deepseek}
 
 * ```model_version```
-  * Model version of GPT-4 Turbo (e.g., 1106-Preview). If you use open models, use empty string.
+  * Model version of GPT-4 Turbo (e.g., 1106-Preview); r1 for Deepseek. If you use open models, use empty string.
 
 * ```deployment_name```
   * Deployment name depending on your API specifications. If you use open models, use empty string. 
 
 * ```model_path```
-  * Model path for the selected open model. Please use local path or compatible huggingface name. If you use GPT-4 Turbo, use empty string. 
+  * Model path for the selected open model. Please use local path or compatible huggingface name. If you use GPT-4 Turbo or Deepseek, use empty string. 
 
 * ```is_preprocessed_doc```
   * Pass this flag if you use preprocessed documents.
@@ -308,24 +328,3 @@ Parameter explanation:
   * Seed value for reproducibility. Default value is 0.
 
 
-## Citation
-
-If you utilize this repository and our work, please cite:
-
-```bibtex
-@inproceedings{sahinuc-etal-2024-efficient,
-  title     = {Efficient Performance Tracking: Leveraging Large Language Models for Automated Construction of Scientific Leaderboards},
-  author    = {{\c{S}}ahinu{\c{c}}, Furkan and Tran, Thy Thy and Grishina, Yulia and Hou, Yufang and Chen, Bei and Gurevych, Iryna},
-  booktitle = {Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing},
-  month     = nov,
-  year      = {2024},
-  address   = {Miami, Florida, USA},
-  publisher = {Association for Computational Linguistics},
-  url       = {https://aclanthology.org/2024.emnlp-main.453},
-  pages     = {7963--7977},
-}
-```
-
-## Disclaimer
-
-This repository is published for the sole purpose of giving additional background details on the respective publication.
