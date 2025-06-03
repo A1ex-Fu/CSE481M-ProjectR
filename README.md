@@ -101,7 +101,7 @@ python tdm_extraction.py --env_file_path /path/to/env/file --exp_id "an identifi
 
 To run with Deepseek and existing preprocessed papers:
 Note that the command assumes that the preprocessed papers from this repo exist
-'''
+```
 python tdm_extraction.py \
   --env_file_path config/env.json \
   --exp_id deepseek_run1 \
@@ -114,10 +114,10 @@ python tdm_extraction.py \
   --deployment_name local \
   --model_path "" \
   --is_few_shot \
-  --max_new_tokens 1024 \
+  --max_new_tokens 2048 \
   --seed 42 \
   --is_preprocessed_doc
-'''
+```
 
 Parameter explanation:
 
@@ -158,7 +158,7 @@ Parameter explanation:
   * Pass this flag if you use few-shot prompting. 
 
 * ```max_new_tokens```
-  * Maximum number of new generated tokens. Default value is 1024.
+  * Maximum number of new generated tokens. Default value is 1024; must be set to 2048 for Deepseek or output gets truncated
 
 * ```seed```
   * Seed value for reproducibility. Default value is 0.
