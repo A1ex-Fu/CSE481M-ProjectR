@@ -25,7 +25,9 @@ In the second step, we normalize TDM tuples to construct leaderboards since pape
 ```
 conda create -n leaderboard_generation python=3.11
 conda activate leaderboard_generation
-pip install -r requirements.txt
+
+pip install torch==2.2.0+cu118 --extra-index-url https://download.pytorch.org/whl/cu118
+pip install -r requirements.txt --no-deps
 ```
 We use [unstructured](https://docs.unstructured.io/open-source/introduction/quick-start) library to process PDF files. In order to utilize it in our experiments, along with its python installation ```pip install "unstructured[all-docs]"```, other system dependencies like [tesseract](https://tesseract-ocr.github.io/tessdoc/Installation.html) and [poppler](https://anaconda.org/conda-forge/poppler) must be installed as well.
 
@@ -35,9 +37,11 @@ From nltk library, ```punkt```, ```averaged_perceptron_tagger``` should be also 
 
 We propose SciLead dataset including annotated Task, Dataset, Metric, Result values (TDMR) from NLP papers. You can reach the dataset by following this [link](https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/4345).
 
+This codebase already includes the SciLead dataset, code for scraping the papers, and the papers themselves. The papers are included in the paperDataset/ directory. 
+
 ## Project structure
 
-Project structure can be found below. Each script is explained in the following sections.
+A portion of the project structure can be found below. Each script is explained in the following sections.
 
 ```
 .
